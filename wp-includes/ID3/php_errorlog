@@ -1,0 +1,20 @@
+[06-Mar-2020 23:33:34 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php on line 18
+[07-Mar-2020 04:50:40 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php on line 18
+[29-Mar-2020 16:31:32 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php on line 18
+[17-Apr-2020 20:09:28 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php on line 18
+[11-May-2020 10:06:25 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/icowebsi/public_html/ellulschranz/wp-includes/ID3/module.audio.ac3.php on line 18

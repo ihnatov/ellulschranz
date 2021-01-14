@@ -1,0 +1,62 @@
+.booking_time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.time-cell {
+    padding: 5px;
+    height: 30px;
+    width: 16.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #212121;
+}
+
+.time-cell:hover {
+    background: #f0f0f0;
+}
+
+.booking_time .selected-time {
+    background: #fa7268;
+    color: white;
+}
+
+.adm_calendar .booking_time {
+    width: calc(100% - 20px);
+    justify-content: center;
+}
+
+.adm_calendar .time-cell {
+    padding: 15px 1%;
+    height: 10px;
+    width: 10%;
+}
+
+.blocked-time {
+    background-color: #ccc;
+    color: black;
+}
+
+.adm_calendar .meet-time {
+    background: #fa7268;
+    color: white;
+}
+
+.adm_calendar .selected-time {
+    background: #ffbeb9;
+}
+
+.adm_calendar .-selected- {
+    background: #ffbeb9;
+}
+

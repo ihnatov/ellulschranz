@@ -1,0 +1,21 @@
+BEGIN:VCARD
+PROFILE:VCARD
+VERSION:3.0
+MAILER:Microsoft Exchange
+PRODID:Microsoft Exchange
+FN:Janika Busuttil
+N:Busuttil;Janika;;;
+EMAIL;TYPE=INTERNET:janika@ellulschranz.com
+ORG:E&S Group;
+CLASS:PUBLIC
+ADR;TYPE=WORK,PREF:;;E&S Consultancy Ltd\nPalace Court\nChurch Street;St Ju
+ lians;STJ3049;;Malta
+LABEL;TYPE=WORK,PREF:E&S Consultancy Ltd\nPalace Court\nChurch Street\nSt J
+ ulians\nSTJ3049\nMalta
+ADR;TYPE=HOME:;;;;;;
+ADR;TYPE=POSTAL:;;;;;;
+TEL;TYPE=WORK:+35620103020 
+TITLE:Corporate Administrator
+X-MS-IMADDRESS:
+REV;VALUE=DATE-TIME:2017-05-10T07:49:38,885Z
+END:VCARD

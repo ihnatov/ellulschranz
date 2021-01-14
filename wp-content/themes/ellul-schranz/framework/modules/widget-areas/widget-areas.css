@@ -1,0 +1,98 @@
+.ajax-loader { position: relative; top: -5px; }
+#update-areas ~ .ajax-loader { top: 5px; }
+#ellul_schranz-restore { margin: 10px 0; }
+
+.edit-area:focus,
+.area-add:focus,
+.area-remove:focus { box-shadow: none; }
+
+.area-add {
+	position: relative;
+	top: -40px;
+}
+
+.area-remove {
+	border-radius: 5px;
+	padding: 5px 10px;
+	background: #fff;
+	float: right;
+	border: 1px solid #ccc;
+}
+
+.on-off-btn { border: none; background: none; cursor: pointer; }
+
+.widget-areas { text-align: center; display: none; }
+
+.area-placeholder {
+	min-height: 26px;
+	border: 1px dashed #ccc;
+	background: #fff;
+	padding: 30px;
+}
+
+.area-placeholder .area-move {
+    cursor: move;
+    margin-right: 10px;
+    float: left;
+}
+
+.area-placeholder li {
+	margin: 5px 0;
+    padding: 5px 10px;
+    background: #fefefe;
+    border: 1px solid #ccc;
+}
+
+.area-placeholder li:last-child {}
+
+.area-placeholder li.ui-state-highlight {
+	height: 20px;
+	opacity: .5;
+}
+
+.area-placeholder .open .area-customize{ display: block; }
+
+.area-customize {
+	text-align: left;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.area-customize > .section { margin: 5px 0; }
+
+.area-customize > .section label { width: 100px; display: inline-block; }
+
+.area-customize > .section p { color: #ccc; }
+
+.area-columns-outer {
+	padding: 10px;
+	width: 264px;
+	margin: 0 auto;
+}
+
+.area-columns-inner {
+	height: 50px;
+	width: 264px;
+	background: #fff url('grid.png') repeat-y;
+	margin-top: 5px;
+}
+
+.area-columns {
+	position: relative;
+	height: 30px;
+	width: 264px;
+	top: 10px;
+	background: #ccc;
+}
+
+.widget-column {
+	width: 4px;
+	height: 30px;
+	float: left;
+	background: red;
+	cursor: move;
+	left: 0;
+	right: auto;
+	top: 0;
+	position: absolute;
+}

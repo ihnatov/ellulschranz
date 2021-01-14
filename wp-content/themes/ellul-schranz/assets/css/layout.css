@@ -1,0 +1,1052 @@
+/**
+ * 	Name: layout.css
+ *
+ *  Styling for the layout of the pages - header, footer, page sections etc.
+ *
+ *  T.O.C
+ *
+ *	=Wrap
+ * 	=Header Wrap
+ *	=Header
+ *	=Logo
+ *	=Menu
+ *		=Menu Basics
+ *		=Menu Skin
+ *		=DropDown
+ *		=Mega Menu Section
+ *		=Menu Arrows
+ *	=Mobile Menu
+ *	=Mobile menu trigger
+ *	=Custom search form
+ *	=Sticky Header
+ *	=Content
+ *	=Page Header
+ *	=Footer
+ *	=Footer Bottom
+ *	=Back to top
+ *	=Misc
+ *
+ */
+
+/* ==========================================================================
+   =Wrap
+   ========================================================================== */
+
+#wrap {
+    position: relative;
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    #wrap {
+    }
+
+}
+
+/* ==========================================================================
+	=Header Wrap
+	========================================================================== */
+
+/**
+ * 1. The height of the #header-wrap should be increased or decreased to accommodate the logo
+ */
+
+#header-wrap {
+    position: relative;
+    height: 105px; /* 1 */
+}
+
+.header-style-1 #header-wrap {
+    position: absolute;
+    z-index: 100;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+}
+
+.header-style-1 #header-widget-area {
+    padding: 37px 0;
+    background-color: #1c9bdc;
+    color: #fff;
+    box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.15);
+    text-align: center;
+    overflow: hidden;
+    display: block !important;
+}
+
+.header-style-1 #header-widget-area a {
+    color: #fff;
+}
+
+.header-style-1 #header-widget-area a:hover {
+    color: #252525;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-style-1 #header-wrap {
+        /*position: relative;*/
+        top: 0;
+    }
+
+    .header-style-1 #header-widget-area {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .header-style-1 #header-wrap {
+        position: relative;
+        top: 0;
+    }
+
+    .header-style-1 #header-widget-area {
+        display: none;
+    }
+
+}
+
+/* ==========================================================================
+   =Header
+   ========================================================================== */
+
+#header {
+    padding: 0 40px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header-style-1 #header {
+    position: relative !important;
+    padding: 0 20px !important;
+    margin-right: -20px;
+    background-color: #fff;
+    box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 1400px) {
+
+    #header {
+        padding: 0 60px;
+    }
+
+    .header-style-1 #header {
+        padding-left: 60px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #header {
+        padding: 0 20px;
+    }
+
+    .header-style-1 #header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 100px;
+        padding-left: 40px;
+        bottom: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #header {
+        padding: 0 15px;
+    }
+
+    .header-style-1 #header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-left: 40px;
+    }
+
+}
+
+/* ==========================================================================
+   =Logo
+   ========================================================================== */
+
+#logo {
+    padding: 40px 0 27px 0;
+}
+
+/**
+ * 1. we need the <a> to be only the size of it's child <img> element
+ * 2. it shouldn't extend beyond the size of it's parent if it's child <img> is very large e.g 1000x1000 px
+ */
+
+#logo a {
+    display: inline-block; /* 1 */
+    max-width: 100%; /* 2 */
+}
+
+#logo img {
+    display: block;
+}
+
+@media (max-width: 767px) {
+
+    /**
+     * 1. on mobile devices logo padding right needs to be the width of the
+     *	  mobile menu trigger + some spacing so as to not let the logo <a>
+     *    overlap the mobile menu trigger
+     */
+    /*#logo {*/
+    /*padding-right: 50px; 	!* 1 *!*/
+    /*}*/
+
+}
+
+/* ==========================================================================
+   =Menu
+   ========================================================================== */
+
+#ellul_schranz-no-menu {
+    padding-top: 40px;
+}
+
+/* =Menu Basics
+   ========================================================================== */
+
+.sf-menu,
+.sf-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sf-menu > li {
+    float: left;
+}
+
+.sf-menu > li > a {
+    position: relative;
+    display: block;
+}
+
+/**
+  * 1. z-index is 1025 because the sticky menu is 1020
+  */
+
+.sf-menu .sf-mega,
+.sf-menu li.dropdown ul {
+    position: absolute;
+    z-index: 1025; /* 1 */
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.sf-menu .sf-mega {
+    left: 0;
+}
+
+.header-style-1 .sf-menu .sf-mega {
+    margin-right: -5px;
+}
+
+.sf-menu li.dropdown {
+    position: relative;
+}
+
+.sf-menu li.dropdown ul ul {
+    top: -23px;
+    left: 100%;
+}
+
+.sf-menu li:hover > .sf-mega,
+.sf-menu li.sfHover > .sf-mega,
+.sf-menu li.dropdown:hover > ul,
+.sf-menu li.dropdown.sfHover > ul {
+    display: block;
+}
+
+/* =Menu Skin
+   ========================================================================== */
+
+.sf-menu {
+    float: right;
+}
+
+.sf-menu a {
+    display: block;
+    padding: 5px 0;
+    /*font: 14px "Hind", sans-serif;*/
+    /*font-weight: 500;*/
+    color: #252525;
+    text-decoration: none;
+}
+
+.sf-menu li.dropdown a {
+    padding: 5px 30px;
+}
+
+.sf-menu li:last-child > a {
+    border-bottom: none;
+}
+
+.sf-menu > li > a,
+.sf-menu > li.dropdown > a {
+    padding: 42px 15px 37px;
+    border: none;
+    color: #252525;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sf-menu > li a i {
+    margin-right: 5px;
+}
+
+.sf-menu > li.current > a,
+.sf-menu li.sfHover > a,
+.sf-menu a:hover,
+.sf-menu li.sfHover a:hover {
+    color: #1c9bdc;
+    text-decoration: none;
+}
+
+/* =DropDown
+   ========================================================================== */
+
+/**
+  * 1. allow long menu items to determine submenu width
+  */
+
+.sf-menu li.dropdown ul {
+    min-width: 280px; /* 1 */
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.21);
+}
+
+.sf-menu > li.dropdown ul {
+    border-top: 3px solid #1c9bdc;
+}
+
+/* =Mega Menu Section
+   ========================================================================== */
+
+.sf-mega {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-top: 3px solid #1c9bdc;
+    background-color: #fff;
+    box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.21);
+    width: 100%;
+}
+
+.sf-mega-section {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+/**
+  * 1. set mega menu section size, as a percentage of the mega menu width
+  */
+
+.sf-mega.sf-mega-1-col .sf-mega-section {
+    width: 100%;
+}
+
+/* 1 */
+
+.sf-mega.sf-mega-2-col .sf-mega-section {
+    width: 50%;
+}
+
+.sf-mega.sf-mega-3-col .sf-mega-section {
+    width: 33.3333333333%;
+}
+
+.sf-mega.sf-mega-4-col .sf-mega-section {
+    width: 25%;
+}
+
+.sf-mega-section-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+
+    .sf-mega-section {
+        padding: 0 40px;
+    }
+
+}
+
+/* =Menu Arrows
+   ========================================================================== */
+
+.sf-arrows .sf-with-ul:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: none;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #919191;
+    margin-top: -1px;
+    content: "";
+}
+
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+    border-top-color: rgba(0, 0, 0, 0.7);
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    display: block;
+    border-color: transparent;
+    border-left-color: #919191;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+    border-left-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .vc_col-sm-12 .vc_column-inner {
+        padding-top: 0 !important;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    /*#header-wrap*/
+    /*{*/
+    /*height: 67px !important;*/
+    /*}*/
+}
+
+/* ==========================================================================
+   =Mobile Menu
+   ========================================================================== */
+
+#mobile-menu {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0;
+    background-color: #1c9bdc;
+    color: #fff;
+}
+
+#mobile-menu li {
+    display: block;
+    margin: 0;
+}
+
+#mobile-menu > li > ul,
+#mobile-menu > li > ul > li > ul {
+    display: none;
+    margin-left: 0;
+}
+
+#mobile-menu .sf-mega {
+    display: none;
+    padding: 0;
+    border: none;
+    margin: 0;
+    background-color: #1c9bdc;
+    box-shadow: none;
+}
+
+#mobile-menu .sf-mega-section {
+    float: none;
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+#mobile-menu .sf-mega-section ul {
+    margin: 0;
+}
+
+#mobile-menu > li > a {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#mobile-menu li a {
+    position: relative;
+    display: block;
+    padding: 15px 25px 12px;
+    border-top: 1px solid #e1e1e1;
+    color: #fff;
+    /*font-size: 14px;*/
+    /*font-weight: 500;*/
+    text-align: left;
+    text-decoration: none;
+}
+
+#mobile-menu ul a {
+    padding-left: 45px;
+}
+
+#mobile-menu ul li ul a {
+    padding-left: 65px;
+}
+
+#mobile-menu .mobile-menu-submenu-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 100%;
+    border-left: 1px solid #e1e1e1;
+    color: #fff;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mobile-menu .mobile-menu-submenu-arrow:hover {
+    background-color: #f7f7f7;
+    color: #252525;
+}
+
+#mobile-menu li a:hover {
+}
+
+#mobile-menu {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #mobile-menu .mobile-menu-submenu-arrow {
+        width: 100px;
+    }
+
+}
+
+/* ==========================================================================
+   =Mobile menu trigger
+   ========================================================================== */
+
+#mobile-menu-trigger {
+    float: right;
+    display: none;
+    font-size: 32px;
+    margin-right: 60px !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #mobile-menu-trigger {
+        display: block;
+        margin-top: 37px;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #mobile-menu-trigger {
+        position: absolute;
+        top: 28px;
+        right: 5px;
+        display: block;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #mobile-menu-trigger {
+    }
+
+}
+
+/* ==========================================================================
+   =Custom search form
+   ========================================================================== */
+
+#custom-search-button + nav {
+    margin-right: 60px;
+}
+
+#custom-search-button {
+    position: absolute;
+    top: 43px;
+    right: 15px;
+    display: block;
+    width: 16px;
+    height: 18px;
+    background: url(../images/bg-search.png) no-repeat center center;
+}
+
+.header-style-1 #custom-search-button {
+    position: relative !important;
+    top: 0;
+    display: block;
+    width: 100% !important;
+    left: 1px !important;
+    height: 105px;
+    background: #1c9bdc url(../images/bg-search-2.png) no-repeat center center;
+    box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+#custom-search-form-container {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    background-color: #1c9bdc;
+    opacity: 0;
+    -webkit-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+/**
+  * 1. z-index is 1030 because the menu has a z-index of 1025
+  */
+
+#custom-search-form {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#custom-search-form-container.open-custom-search-form {
+    z-index: 9999;
+    right: 0;
+    opacity: 1;
+    -webkit-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+#custom-search-form #s {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    padding: 12px 50px 8px 20px;
+    margin: 0 auto;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+#custom-search-submit {
+    display: inline-block;
+    border: none;
+    padding: 8px;
+    margin-left: -40px;
+    margin-bottom: 0;
+    vertical-align: middle;
+    background: url(../images/bg-search.png) no-repeat center center;
+}
+
+#custom-search-form-container a.custom-search-form-close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#custom-search-form-container a.custom-search-form-close:hover {
+    border-color: #252525;
+    background-color: #252525;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #custom-search-button {
+        right: 65px;
+    }
+
+    #custom-search-form {
+        right: 55px;
+    }
+
+    .header-style-1 #custom-search-button {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    /**
+     * Hide search on mobile
+     */
+    /**
+     * 1. !important is needed to overwrite the display:block added by the js
+     */
+    #custom-search-form {
+        display: none !important; /* 1 */
+    }
+
+    #custom-search-button {
+        display: none !important;
+    }
+
+}
+
+/* ==========================================================================
+   =Sticky Header
+   ========================================================================== */
+@media (max-width: 1241px ) {
+    .header-style-1 #custom-search-button {
+        display: none !important;
+    }
+
+    .header-style-1 #header {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        height: 105px;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    /**
+     * 1. The z-index has to be 1020 so it is bigger than the back to top buttons z-index that is 1010
+     */
+    #header-wrap.stuck {
+        position: fixed !important;
+        z-index: 1020; /* 1 */
+        top: 0 !important;
+        width: 100%;
+
+        background-color: #fff !important;
+        box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.13);
+        -webkit-transition: padding-top 0.5s;
+        transition: padding-top 0.5s;
+    }
+
+    .logged-in  #header-wrap.stuck
+    {
+        padding-top: 32px !important;
+    }
+
+    .header-style-1 #header-wrap.stuck {
+        padding-top: 0;
+        background-color: #1c9bdc;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+    }
+
+    .header-style-1 #header-wrap.stuck #header,
+    .header-style-1 #custom-search-button,
+    .header-style-1 #header-widget-area {
+        box-shadow: none;
+    }
+
+    .header-style-1 #header-wrap.stuck #custom-search-button {
+        right: -15px !important;
+        /*width: calc(100% + 30px) !important;*/
+
+    }
+
+    .header-style-2 #header-wrap.stuck #header {
+        top: 15px;
+    }
+
+    .header-style-2 #header-wrap.stuck {
+        height: 90px;
+    }
+
+    .header-style-2 #header-wrap.stuck #logo {
+        padding-top: 25px;
+    }
+
+    .header-style-2 #header-wrap.stuck .sf-menu > li > a,
+    .header-style-2 #header-wrap.stuck .sf-menu > li.dropdown > a {
+        padding-top: 27px;
+    }
+
+    .header-style-2 #header-wrap.stuck .sf-arrows .sf-with-ul:after {
+        margin-top: -7px;
+    }
+
+    .header-style-2 #header-wrap.stuck .sf-arrows ul .sf-with-ul:after {
+        margin-top: -5px;
+    }
+
+    .header-style-2 #header-wrap.stuck #custom-search-button {
+        top: 28px;
+    }
+
+    body.admin-bar #header-wrap.stuck {
+        top: 32px;
+    }
+
+}
+
+/* ==========================================================================
+   =Content
+   ========================================================================== */
+
+#content {
+    padding-bottom: 100px;
+}
+
+/* ==========================================================================
+   =Page Header
+   ========================================================================== */
+
+.page-header {
+    margin-bottom: 100px;
+}
+
+#page-header {
+    padding: 100px 0;
+    margin-bottom: 50px;
+    background: #252525 no-repeat center center;
+    color: #fff;
+    text-align: center;
+}
+
+.header-style-1 #page-header {
+    padding-top: 300px;
+}
+
+#page-header p {
+    margin-bottom: 0;
+    color: #1c9bdc;
+}
+
+#page-header h3 {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-style-1 #page-header {
+        padding-top: 100px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    /*.header-style-1 #page-header { padding-top: 100px; }*/
+    #logo a {
+        max-width: 85%;
+    }
+
+}
+
+/* ==========================================================================
+   =Footer
+   ========================================================================== */
+
+#footer {
+    padding: 100px 0;
+    background-color: #1c1c1c;
+    color: #7b7b7b;
+}
+
+#footer a {
+    color: #7b7b7b;
+}
+
+#footer a:hover {
+    color: #1c9bdc;
+}
+
+#footer-widget-area-1 {
+}
+
+#footer-widget-area-2 {
+}
+
+#footer-widget-area-3 {
+}
+
+#footer-widget-area-4 {
+}
+
+#footer #contact-form {
+    margin: 0 0 -60px -30px;
+}
+
+@media (max-width: 767px) {
+
+    #footer-widget-area-1 + #footer-widget-area-2 {
+        margin-top: 50px;
+    }
+
+    #footer-widget-area-2 + #footer-widget-area-3 {
+        margin-top: 50px;
+    }
+
+    #footer-widget-area-3 + #footer-widget-area-4 {
+        margin-top: 50px;
+    }
+
+}
+
+/* ==========================================================================
+   =Footer Bottom
+   ========================================================================== */
+
+#footer-bottom {
+    padding: 20px 0 15px;
+    background-color: #efefef;
+    color: #273941;
+}
+
+#footer-bottom a {
+    color: #273941;
+}
+
+#footer-bottom a:hover {
+    color: #1c9bdc;
+}
+
+#footer-bottom-widget-area-1 {
+}
+
+#footer-bottom-widget-area-2 {
+}
+
+#footer-bottom-widget-area-3 {
+}
+
+#footer-bottom-widget-area-4 {
+}
+
+@media (max-width: 767px) {
+
+    #footer-bottom-widget-area-1 + #footer-bottom-widget-area-2 {
+        margin-top: 20px;
+    }
+
+    #footer-bottom-widget-area-2 + #footer-bottom-widget-area-3 {
+        margin-top: 20px;
+    }
+
+    #footer-bottom-widget-area-3 + #footer-bottom-widget-area-4 {
+        margin-top: 20px;
+    }
+
+}
+
+/* ==========================================================================
+   =Back to top
+   ========================================================================== */
+
+#back-to-top {
+    position: fixed;
+    z-index: 1010;
+    right: -40px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #252525;
+    color: #fafafa;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+#back-to-top i {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: normal;
+    vertical-align: top;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+#back-to-top:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#back-to-top:hover i {
+    color: #fff;
+}
+
+#back-to-top.visible {
+    right: 40px;
+}
+
+#back-to-top.gone {
+    right: -40px;
+}
+
+/* ==========================================================================
+   =Misc
+   ========================================================================== */
+
+.javascript-required,
+.modern-browser-required {
+    padding: 15px 0;
+    background-color: #fc0103;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}

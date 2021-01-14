@@ -1,0 +1,26 @@
+/**
+ * 	Name: admin.css
+ *
+ *  Styling for WordPress Dashboard
+ *
+ */
+
+.rwmb-tab-panel {
+	padding: 30px 20px !important;
+}
+.rwmb-field {
+	padding-bottom: 15px;
+}
+.rwmb-field label {
+	text-transform: capitalize;
+}
+.rwmb-field:last-child {
+	padding-bottom: 0;
+}
+.rwmb-field .description {
+	margin: 15px 0 15px;
+	color: #888;
+}
+.rwmb-field:last-child .description {
+	margin: 15px 0 0;
+}

@@ -1,0 +1,1463 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: header.php:27 page-blank.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:83
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:203 functions.php:204
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:213
+msgid "Menu"
+msgstr ""
+
+#: functions.php:214
+msgid "Menu widgets"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14 searchform.php:14
+msgid "Search..."
+msgstr ""
+
+#: comments.php:21
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:29 comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:32 comments.php:54
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:55
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:71
+msgid "Leave a message"
+msgstr ""
+
+#: comments.php:72
+msgid "Leave a message to %s"
+msgstr ""
+
+#: comments.php:73
+msgid "Send"
+msgstr ""
+
+#. Name of the template
+msgid "Blank Template"
+msgstr ""
+
+#: template-parts/404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: framework/config.php:28
+msgid "Redux Framework"
+msgstr ""
+
+#: framework/config.php:34
+msgid "Meta Box"
+msgstr ""
+
+#: framework/config.php:40
+msgid "Meta Box Tabs"
+msgstr ""
+
+#: framework/config.php:47
+msgid "Visual Composer"
+msgstr ""
+
+#: framework/config.php:53
+msgid "EllulSchranz Visual Composer Addon"
+msgstr ""
+
+#: framework/config.php:59
+msgid "EllulSchranz Portfolio Builder"
+msgstr ""
+
+#: framework/config.php:65
+msgid "EDNS Demo Importer"
+msgstr ""
+
+#: framework/config.php:71
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/config.php:77
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/config.php:91
+msgid "Install Suggested Plugins"
+msgstr ""
+
+#: framework/config.php:92
+msgid "Theme Plugins"
+msgstr ""
+
+#: framework/config.php:103 framework/config.php:107
+msgid "Footer"
+msgstr ""
+
+#: framework/config.php:113
+msgid "Footer: Column 1"
+msgstr ""
+
+#: framework/config.php:121
+msgid "Footer: Column 2"
+msgstr ""
+
+#: framework/config.php:129
+msgid "Footer: Column 3"
+msgstr ""
+
+#: framework/config.php:137
+msgid "Footer: Column 4"
+msgstr ""
+
+#: framework/config.php:146 framework/config.php:150
+msgid "Footer Bottom"
+msgstr ""
+
+#: framework/config.php:156
+msgid "Footer Bottom: Column 1"
+msgstr ""
+
+#: framework/config.php:164
+msgid "Footer Bottom: Column 2"
+msgstr ""
+
+#: framework/config.php:179
+msgctxt "Custom sidebars"
+msgid "Default"
+msgstr ""
+
+#: framework/config.php:190
+msgid "Page Settings"
+msgstr ""
+
+#: framework/config.php:196 framework/config.php:287 framework/config.php:342 
+#: framework/config.php:486
+msgid "Layout"
+msgstr ""
+
+#: framework/config.php:199 framework/config.php:252 framework/config.php:290 
+#: framework/config.php:304 framework/config.php:345 framework/config.php:398 
+#: framework/config.php:641 framework/config.php:652
+msgid "Page title"
+msgstr ""
+
+#: framework/config.php:204 framework/config.php:350
+msgid "Page Layout"
+msgstr ""
+
+#: framework/config.php:208 framework/config.php:354
+msgid ""
+"Configure the page layout.<br/>\n"
+"\t\t\t\t\t\t<strong>Default (set in theme options)</strong> - use the page "
+"layout set as default in Theme Options > Layout > Default page layout<br/>\n"
+"\t\t\t\t\t\t<strong>Full width</strong> - page with no sidebar<br/>\n"
+"\t\t\t\t\t\t<strong>Sidebar Left</strong> - page with left sidebar<br/>\n"
+"\t\t\t\t\t\t<strong>Sidebar right</strong> - page with right sidebar<br/>\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: framework/config.php:216 framework/config.php:241 framework/config.php:362 
+#: framework/config.php:387
+msgctxt "metabox placeholder"
+msgid "-- Select --"
+msgstr ""
+
+#: framework/config.php:223 framework/config.php:369
+msgctxt "layout->sidebar"
+msgid "Default ( set in theme options ) "
+msgstr ""
+
+#: framework/config.php:224 framework/config.php:370 framework/config.php:499
+msgctxt "layout->sidebar"
+msgid "Full width"
+msgstr ""
+
+#: framework/config.php:225 framework/config.php:371 framework/config.php:500
+msgctxt "layout->sidebar"
+msgid "Sidebar left"
+msgstr ""
+
+#: framework/config.php:226 framework/config.php:372 framework/config.php:501
+msgctxt "layout->sidebar"
+msgid "Sidebar right"
+msgstr ""
+
+#: framework/config.php:230 framework/config.php:376
+msgid "Sidebar Source"
+msgstr ""
+
+#: framework/config.php:234 framework/config.php:380
+msgid ""
+"Select the sidebar you wish to display on this page.<br/>\n"
+"\t\t\t\t\t\tOnly applies when a Sidebar Left or Sidebar Right layout has "
+"been selected.<br/>\n"
+"\t\t\t\t\t\tYou can create new sidebars from Apparence > Sidebars<br/>\n"
+"\t\t\t\t\t\t<strong>Default</strong> - use the default sidebar (Main Sidebar)"
+"\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: framework/config.php:253 framework/config.php:305 framework/config.php:399
+msgid "Enable page title on this page"
+msgstr ""
+
+#: framework/config.php:259 framework/config.php:311 framework/config.php:405
+msgid "Page title background"
+msgstr ""
+
+#: framework/config.php:260 framework/config.php:312 framework/config.php:406
+msgid ""
+"Upload an Image to be used as  a background for the page title. (optional)"
+msgstr ""
+
+#: framework/config.php:266 framework/config.php:318 framework/config.php:412
+msgid "Custom page title"
+msgstr ""
+
+#: framework/config.php:267 framework/config.php:319 framework/config.php:413
+msgid ""
+"By default the page title displays the title given to the page. You can "
+"optionally overwrite it by providing a custom title.  (optional)"
+msgstr ""
+
+#: framework/config.php:273 framework/config.php:325 framework/config.php:419
+msgid "Page sub title"
+msgstr ""
+
+#: framework/config.php:274 framework/config.php:326 framework/config.php:420
+msgid ""
+"Allows you to provide a subtitle to be used with the page title (optional)"
+msgstr ""
+
+#: framework/config.php:281
+msgid "Post Settings"
+msgstr ""
+
+#: framework/config.php:297
+msgid "Hide featured image"
+msgstr ""
+
+#: framework/config.php:298
+msgid ""
+"Check this if you want to hide the Featured Image on the Blog Detail Page"
+msgstr ""
+
+#: framework/config.php:336
+msgid "Portfolio Settings"
+msgstr ""
+
+#: framework/config.php:457
+msgid "Theme Options"
+msgstr ""
+
+#: framework/config.php:492
+msgid "Page layout options"
+msgstr ""
+
+#: framework/config.php:497
+msgid "Default page layout"
+msgstr ""
+
+#: framework/config.php:508
+msgid "Sidebar column size"
+msgstr ""
+
+#: framework/config.php:518
+msgid "Misc"
+msgstr ""
+
+#: framework/config.php:523
+msgid "Back to top button"
+msgstr ""
+
+#: framework/config.php:524
+msgid "Enable / disable back to top button"
+msgstr ""
+
+#: framework/config.php:525 framework/config.php:608 framework/config.php:654 
+#: framework/config.php:674 framework/config.php:727
+msgid "On"
+msgstr ""
+
+#: framework/config.php:526 framework/config.php:609 framework/config.php:655 
+#: framework/config.php:675 framework/config.php:728
+msgid "Off"
+msgstr ""
+
+#: framework/config.php:532
+msgid "Styling"
+msgstr ""
+
+#: framework/config.php:538
+msgid "Colors"
+msgstr ""
+
+#: framework/config.php:543
+msgid "Accent colors"
+msgstr ""
+
+#: framework/config.php:550
+msgid "Tile colors"
+msgstr ""
+
+#: framework/config.php:555
+msgid "MS Tile"
+msgstr ""
+
+#: framework/config.php:562
+msgid "Android"
+msgstr ""
+
+#: framework/config.php:569
+msgid "Header"
+msgstr ""
+
+#: framework/config.php:575
+msgid "Header layout options"
+msgstr ""
+
+#: framework/config.php:580
+msgid "Header layout"
+msgstr ""
+
+#: framework/config.php:581
+msgid "Select the header layout"
+msgstr ""
+
+#: framework/config.php:595
+msgid "Header height"
+msgstr ""
+
+#: framework/config.php:596
+msgid ""
+"Select the header height. Adjust it until logo fit nicely in the header."
+msgstr ""
+
+#: framework/config.php:606
+msgid "Sticky header"
+msgstr ""
+
+#: framework/config.php:607
+msgid "Enable / disable sticky header."
+msgstr ""
+
+#: framework/config.php:615
+msgid "Sticky header height"
+msgstr ""
+
+#: framework/config.php:616
+msgid "Select the sticky header height"
+msgstr ""
+
+#: framework/config.php:627 framework/config.php:632
+msgid "Logo"
+msgstr ""
+
+#: framework/config.php:633
+msgid "Select the header style logo"
+msgstr ""
+
+#: framework/config.php:647
+msgid "Default  settings"
+msgstr ""
+
+#: framework/config.php:653
+msgid "Enable / disable page title"
+msgstr ""
+
+#: framework/config.php:661
+msgid "Pages"
+msgstr ""
+
+#: framework/config.php:667
+msgid "Page general settings"
+msgstr ""
+
+#: framework/config.php:672
+msgid "Global page comments"
+msgstr ""
+
+#: framework/config.php:673
+msgid "You can globally disable the page comments ( not blog )"
+msgstr ""
+
+#: framework/config.php:681
+msgid "404"
+msgstr ""
+
+#: framework/config.php:686
+msgid "404 page"
+msgstr ""
+
+#: framework/config.php:687
+msgid "Select the 404 page"
+msgstr ""
+
+#: framework/config.php:693
+msgid "Search"
+msgstr ""
+
+#: framework/config.php:698
+msgid "Search results to display"
+msgstr ""
+
+#: framework/config.php:699
+msgid "Leaving them un-checked will display the default post types."
+msgstr ""
+
+#: framework/config.php:700
+msgid "Check the post types to display in search results"
+msgstr ""
+
+#: framework/config.php:707
+msgid "Search results page"
+msgstr ""
+
+#: framework/config.php:708
+msgid "Select the search results page"
+msgstr ""
+
+#: framework/config.php:714
+msgid "Blog"
+msgstr ""
+
+#: framework/config.php:720
+msgid "General settings"
+msgstr ""
+
+#: framework/config.php:725
+msgid "Blog metadata"
+msgstr ""
+
+#: framework/config.php:726
+msgid "Enabled / disable metadata on blog posts"
+msgstr ""
+
+#: framework/config.php:734
+msgid "Metadata options"
+msgstr ""
+
+#: framework/config.php:735
+msgid "Check the metadata to display"
+msgstr ""
+
+#: framework/config.php:737
+msgctxt "Option name under Blog -> metadata"
+msgid "Post format"
+msgstr ""
+
+#: framework/config.php:738
+msgctxt "Option name under Blog -> metadata"
+msgid "Publish time"
+msgstr ""
+
+#: framework/config.php:739
+msgctxt "Option name under Blog -> metadata"
+msgid "Categories"
+msgstr ""
+
+#: framework/config.php:740
+msgctxt "Option name under Blog -> metadata"
+msgid "Tags"
+msgstr ""
+
+#: framework/config.php:741
+msgctxt "Option name under Blog -> metadata"
+msgid "Attachment size"
+msgstr ""
+
+#: framework/config.php:742
+msgctxt "Option name under Blog -> metadata"
+msgid "Comments"
+msgstr ""
+
+#: framework/config.php:743
+msgctxt "Option name under Blog -> metadata"
+msgid "Author"
+msgstr ""
+
+#: framework/config.php:744
+msgctxt "Option name under Blog -> metadata"
+msgid "Featured"
+msgstr ""
+
+#: framework/config.php:761
+msgid "Featured image on single blog post"
+msgstr ""
+
+#: framework/config.php:762
+msgid "Default behavior of single blog post featured image"
+msgstr ""
+
+#: framework/config.php:763
+msgid "Hide"
+msgstr ""
+
+#: framework/config.php:764
+msgid "Show"
+msgstr ""
+
+#: framework/config.php:770
+msgid "Advanced"
+msgstr ""
+
+#: framework/config.php:776
+msgid "Google API Settings"
+msgstr ""
+
+#: framework/config.php:781
+msgid "Google API key"
+msgstr ""
+
+#: framework/config.php:786
+msgid "Advanced CSS"
+msgstr ""
+
+#: framework/config.php:791
+msgid "Custom CSS"
+msgstr ""
+
+#: template-parts/content/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:20
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content/content.php:30
+msgid "Read more %s"
+msgstr ""
+
+#: template-parts/content/content.php:34 
+#: template-parts/content/content-post.php:28 
+#: template-parts/content/content-page.php:18 
+#: template-parts/content/content-edns-portfolio.php:18
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/search/query-vars.php:13
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/header/layout-2.php:37 template-parts/header/layout.php:53
+msgid "Type and press enter to search..."
+msgstr ""
+
+#: framework/modules/templating/templating.php:49
+msgctxt "The page title"
+msgid "404"
+msgstr ""
+
+#: framework/modules/templating/templating.php:55
+msgctxt "The page title"
+msgid "Archives"
+msgstr ""
+
+#: framework/modules/templating/templating.php:58
+msgctxt "The page title"
+msgid "Blog"
+msgstr ""
+
+#: framework/modules/templating/templating.php:60
+msgctxt "The page title"
+msgid "Search"
+msgstr ""
+
+#: framework/modules/templating/templating.php:62
+msgctxt "The page title"
+msgid "Shop"
+msgstr ""
+
+#: framework/modules/templating/templating.php:141
+msgid "Featured"
+msgstr ""
+
+#: framework/modules/templating/templating.php:162
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: framework/modules/templating/templating.php:186
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: framework/modules/templating/templating.php:198
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: framework/modules/templating/templating.php:211 
+#: framework/modules/templating/templating.php:224
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: framework/modules/templating/templating.php:214
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: framework/modules/templating/templating.php:227
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: framework/modules/templating/templating.php:241
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: framework/modules/templating/templating.php:392 
+#: framework/modules/templating/templating.php:422 
+#: framework/modules/templating/templating.php:463
+msgid "Previous page"
+msgstr ""
+
+#: framework/modules/templating/templating.php:393 
+#: framework/modules/templating/templating.php:423 
+#: framework/modules/templating/templating.php:464
+msgid "Next page"
+msgstr ""
+
+#: framework/modules/templating/templating.php:394 
+#: framework/modules/templating/templating.php:424 
+#: framework/modules/templating/templating.php:465
+msgid "Page"
+msgstr ""
+
+#: framework/modules/templating/templating.php:511 
+#: framework/modules/templating/templating.php:516
+msgctxt "Frontend no sidebar notification"
+msgid "Please add widgets to your sidebar"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:24 
+#: framework/modules/sidebars/sidebars.php:25
+msgid "Custom sidebars"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:36
+msgid "Custom Sidebars"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:37
+msgid "Add new sidebar"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:38 
+#: framework/modules/widget-areas/widget-areas.php:226 
+#: framework/modules/widget-areas/widget-areas.php:250
+msgid "Saving..."
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:44
+msgid "Sidebar name"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:45
+msgid "Actions"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:51
+msgid "You haven't defined any sidebars, yet!"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:57 
+#: framework/modules/sidebars/sidebars.php:103
+msgid "Delete"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:58 
+#: framework/modules/sidebars/sidebars.php:104
+msgid "Deleting..."
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:74
+msgid "Please specify a name for your sidebar."
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:75
+msgid "Are you sure you want to delete this sidebar?"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:88 
+#: framework/modules/sidebars/sidebars.php:116
+msgid "Unable to verify nonce"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:100
+msgid "Sidebar successfully saved."
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:107
+msgid "This sidebar already exists"
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:125
+msgid "Sidebar successfully deleted."
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:127
+msgid "Unable to find the specified sidebar."
+msgstr ""
+
+#: framework/modules/sidebars/sidebars.php:138
+msgid "Sidebar:"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:125
+msgid "No Icon"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:208
+msgid "Nav:"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:272
+msgid "%s (Invalid)"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:275
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:287
+msgid "sub item"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:302
+msgid "Move up"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:315
+msgid "Move down"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:317 
+#: framework/modules/navigation/menu-backend.php:319
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:328
+msgid "URL"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:335
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:341
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:348
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:353
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:359
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:365
+msgid "Description"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:367
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:373
+msgid "Icon"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:381
+msgid "Search icon..."
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:387
+msgid "Mega Menu"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:398
+msgid "Widgetize Section"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:410
+msgid "Move"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:411
+msgid "Up one"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:412
+msgid "Down one"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:415
+msgid "To the top"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:422
+msgid "Original: %s"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:435 
+#: framework/modules/widget-areas/widget-areas.php:126 
+#: framework/modules/widget-areas/widget-areas.php:170
+msgid "Remove"
+msgstr ""
+
+#: framework/modules/navigation/menu-backend.php:436
+msgid "Cancel"
+msgstr ""
+
+#: framework/modules/navigation/menu-frontend.php:27
+msgctxt "Frontend no menu notification"
+msgid "Please select a menu for this Theme location from Apparence > Menus!"
+msgstr ""
+
+#: framework/modules/navigation/menu-frontend.php:39
+msgid "Menu Widget Area"
+msgstr ""
+
+#: framework/modules/auto-update/github.php:80 
+#: framework/modules/auto-update/github.php:90
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: framework/modules/auto-update/github.php:284
+msgid ""
+"%sActivate the Envato Market plugin%s to get updates for your ThemeForest "
+"and CodeCanyon items."
+msgstr ""
+
+#: framework/modules/auto-update/github.php:295
+msgid ""
+"%sInstall the Envato Market plugin%s to get updates for your ThemeForest and "
+"CodeCanyon items."
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:46
+msgid "Custom Widget:"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:87
+msgid "Widget area"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:105 
+#: framework/modules/widget-areas/widget-areas.php:106 
+#: framework/modules/widget-areas/widget-areas.php:143
+msgid "Widget Layouts"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:123
+msgid "Untitled row"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:124 
+#: framework/modules/widget-areas/widget-areas.php:174
+msgid "Row name"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:125 
+#: framework/modules/widget-areas/widget-areas.php:180
+msgid "Columns"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:128
+msgid ""
+"You are about to reset the widget areas to there default settings. Do you "
+"want to continue?"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:146
+msgid "Restore Default Settings"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:151
+msgid "Area name"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:152
+msgid "Status"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:153
+msgid "Toggle"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:217
+msgid "Add new row"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:229
+msgid "Edit area"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:240
+msgid "No widget areas defined."
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:248
+msgid "Update areas"
+msgstr ""
+
+#: framework/modules/widget-areas/widget-areas.php:327
+msgid "Column"
+msgstr ""
+
+#: framework/modules/misc-actions-filters/misc-actions-filters.php:68
+msgctxt "tinymce list style"
+msgid "Custom list style"
+msgstr ""
+
+#: framework/modules/misc-actions-filters/misc-actions-filters.php:73
+msgctxt "tinymce list style"
+msgid "Dropcap"
+msgstr ""
+
+#: framework/modules/misc-actions-filters/misc-actions-filters.php:78
+msgctxt "tinymce list style"
+msgid "Dropcap boxed layout"
+msgstr ""
+
+#: framework/modules/misc-actions-filters/misc-actions-filters.php:83
+msgctxt "tinymce list style"
+msgid "Dropcap circle layout"
+msgstr ""
+
+#: framework/modules/custom-widgets/navigation-widget.php:21
+msgid "Display a pages sub pages"
+msgstr ""
+
+#: framework/modules/custom-widgets/navigation-widget.php:61 
+#: framework/modules/custom-widgets/flickr-widget.php:61 
+#: framework/modules/custom-widgets/contact-widget.php:76
+msgid "Title:"
+msgstr ""
+
+#: framework/modules/custom-widgets/navigation-widget.php:67
+msgid "Select page:"
+msgstr ""
+
+#: framework/modules/custom-widgets/navigation-widget.php:74
+msgctxt "navigation widget"
+msgid "-- Select --"
+msgstr ""
+
+#: framework/modules/custom-widgets/navigation-widget.php:82
+msgctxt "navigation widget"
+msgid "Include parent"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:83
+msgctxt "social widget"
+msgid "Title:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:84
+msgctxt "social widget"
+msgid "Facebook URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:85
+msgctxt "social widget"
+msgid "Twitter URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:86
+msgctxt "social widget"
+msgid "Dribbble URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:87
+msgctxt "social widget"
+msgid "Pinterest URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:88
+msgctxt "social widget"
+msgid "Google+ URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:89
+msgctxt "social widget"
+msgid "Tumblr URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:90
+msgctxt "social widget"
+msgid "Instagram URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:91
+msgctxt "social widget"
+msgid "RSS URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:92
+msgctxt "social widget"
+msgid "LinkedIn URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:93
+msgctxt "social widget"
+msgid "Skype URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:94
+msgctxt "social widget"
+msgid "Flickr URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:95
+msgctxt "social widget"
+msgid "Vimeo URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:96
+msgctxt "social widget"
+msgid "Github URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:97
+msgctxt "social widget"
+msgid "Youtube URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:98
+msgctxt "social widget"
+msgid "Windows URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:99
+msgctxt "social widget"
+msgid "Dropbox URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:100
+msgctxt "social widget"
+msgid "Xing URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:101
+msgctxt "social widget"
+msgid "ADN URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:102
+msgctxt "social widget"
+msgid "Android URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:103
+msgctxt "social widget"
+msgid "Apple URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:104
+msgctxt "social widget"
+msgid "Behance URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:105
+msgctxt "social widget"
+msgid "Bitbucket URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:106
+msgctxt "social widget"
+msgid "Bitcoin URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:107
+msgctxt "social widget"
+msgid "Codepen URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:108
+msgctxt "social widget"
+msgid "CSS3 URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:109
+msgctxt "social widget"
+msgid "Delicious URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:110
+msgctxt "social widget"
+msgid "Deviantart URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:111
+msgctxt "social widget"
+msgid "Digg URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:112
+msgctxt "social widget"
+msgid "Drupal URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:113
+msgctxt "social widget"
+msgid "Empire URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:114
+msgctxt "social widget"
+msgid "Four Square URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:115
+msgctxt "social widget"
+msgid "Git URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:116
+msgctxt "social widget"
+msgid "Gittip URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:117
+msgctxt "social widget"
+msgid "Hacker News URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:118
+msgctxt "social widget"
+msgid "HTML5 URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:119
+msgctxt "social widget"
+msgid "Joomla URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:120
+msgctxt "social widget"
+msgid "jsFiddle URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:121
+msgctxt "social widget"
+msgid "Linux URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:122
+msgctxt "social widget"
+msgid "Maxcdn URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:123
+msgctxt "social widget"
+msgid "OpenID URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:124
+msgctxt "social widget"
+msgid "Pagelines URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:125
+msgctxt "social widget"
+msgid "Pied Piper URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:126
+msgctxt "social widget"
+msgid "QQ URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:127
+msgctxt "social widget"
+msgid "Rebel URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:128
+msgctxt "social widget"
+msgid "Reddit URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:129
+msgctxt "social widget"
+msgid "RenRen URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:130
+msgctxt "social widget"
+msgid "Share URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:131
+msgctxt "social widget"
+msgid "Slack URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:132
+msgctxt "social widget"
+msgid "SoundCloud URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:133
+msgctxt "social widget"
+msgid "Spotify URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:134
+msgctxt "social widget"
+msgid "StackExchange URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:135
+msgctxt "social widget"
+msgid "StackOverflow URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:136
+msgctxt "social widget"
+msgid "Steam URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:137
+msgctxt "social widget"
+msgid "Stumbleupon URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:138
+msgctxt "social widget"
+msgid "Tencent Weibo URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:139
+msgctxt "social widget"
+msgid "Trello URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:140
+msgctxt "social widget"
+msgid "Vine URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:141
+msgctxt "social widget"
+msgid "VK URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:142
+msgctxt "social widget"
+msgid "WeChat URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:143
+msgctxt "social widget"
+msgid "Weibo URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:144
+msgctxt "social widget"
+msgid "WordPress URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:145
+msgctxt "social widget"
+msgid "Yahoo URL:"
+msgstr ""
+
+#: framework/modules/custom-widgets/social-media-widget.php:152 
+#: framework/modules/custom-widgets/flickr-widget.php:21
+msgid "Display your Flickr photos"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:44
+msgid "The Flickr Badge ID is not set."
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:67
+msgid "Flickr ID type:"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:69
+msgctxt "flickr user"
+msgid "User"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:70
+msgctxt "flickr group"
+msgid "Group"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:76
+msgid "Flickr ID:"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:80
+msgid "You can find the Flickr ID on"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:83
+msgctxt "flickr display images"
+msgid "Display:"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:85
+msgctxt "flickr display image"
+msgid "Latest"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:86
+msgctxt "flickr display image"
+msgid "Random"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:92
+msgid "Image Size:"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:94
+msgctxt "flickr image size"
+msgid "Small"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:95
+msgctxt "flickr image size"
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:96
+msgctxt "flickr image size"
+msgid "Medium"
+msgstr ""
+
+#: framework/modules/custom-widgets/flickr-widget.php:102
+msgid "Number of images to show:"
+msgstr ""
+
+#: framework/modules/custom-widgets/contact-widget.php:21
+msgid "Display your contact info"
+msgstr ""
+
+#: framework/modules/custom-widgets/contact-widget.php:82
+msgctxt "contact widget"
+msgid "Address:"
+msgstr ""
+
+#: framework/modules/custom-widgets/contact-widget.php:88
+msgctxt "contact widget"
+msgid "Phone:"
+msgstr ""
+
+#: framework/modules/custom-widgets/contact-widget.php:94
+msgctxt "contact widget"
+msgid "E-mail:"
+msgstr ""
+
+#: framework/modules/custom-widgets/contact-widget.php:100
+msgctxt "contact widget"
+msgid "Website:"
+msgstr ""
+
+#: framework/modules/custom-widgets/contact-widget.php:107
+msgctxt "contact widget"
+msgid "Show icons"
+msgstr ""
+
+#: framework/modules/custom-widgets/latest-posts-widget.php:26
+msgid "Your site&#8217;s most recent Posts with featured image."
+msgstr ""
+
+#: framework/modules/custom-widgets/latest-posts-widget.php:40
+msgid "Recent Posts"
+msgstr ""
+
+#. Name of the theme
+msgid "Ellul Schranz"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A clean and well-structured theme with a focus on creating an immersive "
+"experience for the visitor."
+msgstr ""
+
+#. URI of the theme
+msgid "http://themeforest.net/user/europadns/portfolio"
+msgstr ""
+
+#. Author of the theme
+msgid "EuropaDNS"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/europadns/"
+msgstr ""

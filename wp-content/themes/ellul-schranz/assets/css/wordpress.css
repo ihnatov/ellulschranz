@@ -1,0 +1,1600 @@
+/**
+ * 	Name: wordpress.css
+ *
+ *  Styling for WordPress widgets, blog posts, standard wordpress classes. Useful if you want to convert the template to a WordPress theme
+ *
+ *  T.O.C
+ *
+ *	=WordPress Default Classes
+ *	=WordPress Post(s)
+ *	=WordPress pagination and navigation
+ *	=WordPress Comments
+ *	=WordPress Comments Navigation
+ *	=WordPress Comment Form
+ *	=WordPress Widgets
+ *		=Widgets default
+ *		=Text Widget
+ *		=Search Widget
+ *		=Recent Entries Widget
+ *		=Pages Widget
+ *		=Archive Widget
+ *		=Categories Widget
+ *		=Meta Widget
+ *		=Recent Comments Widget
+ *		=Tag Cloud Widget
+ *		=Calendar Widget
+ *		=Nav Menu Widget
+ *		=RSS Widget
+ *	=WordPress Custom Widgets
+ *		=ELLUL_SCHRANZ Twitter widget
+ *		=ELLUL_SCHRANZ Flickr widget
+ *		=ELLUL_SCHRANZ Contact Info widget
+ *		=ELLUL_SCHRANZ Newsletter subscribe widget
+ *		=ELLUL_SCHRANZ Latest posts widget
+ *		=ELLUL_SCHRANZ Navigation widget
+ *		=ELLUL_SCHRANZ Social media widget
+ *
+ */
+
+/* ==========================================================================
+   =WordPress Default Classes
+   ========================================================================== */
+
+	.bypostauthor {}
+	.updated:not(.published){ display: none; }
+
+	/* Align */
+
+	.alignleft {
+		float: left;
+		display: inline;
+	}
+
+	.alignright {
+		float: right;
+		display: inline;
+	}
+
+	.aligncenter {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	blockquote.alignleft,
+	.wp-caption.alignleft,
+	.caption.alignleft,
+	img.alignleft {
+		margin: 5px 20px 20px 0;
+	}
+
+	blockquote.alignright,
+	.wp-caption.alignright,
+	.caption.alignright,
+	img.alignright {
+		margin: 5px 0 20px 20px;
+	}
+
+	blockquote.aligncenter,
+	.wp-caption.aligncenter,
+	.caption.aligncenter,
+	img.aligncenter {
+		margin-top: 5px;
+		margin-bottom: 20px;
+		clear: both;
+	}
+
+	.wp-caption.alignleft,
+	.wp-caption.alignright,
+	.wp-caption.aligncenter,
+	.caption.alignleft,
+	.caption.alignright,
+	.caption.aligncenter	{
+		margin-bottom: 20px;
+	}
+
+	/* Caption */
+
+	.caption,
+	.wp-caption {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.wp-caption img[class*="wp-image-"] { margin: 0; }
+
+	.caption-text,
+	.wp-caption-text {
+		padding: 10px 0;
+		color: #bbbbbb;
+	}
+
+	/* Gallery */
+
+	.gallery { margin-bottom: 20px; }
+
+	.gallery-item {
+		float: left;
+		display: block;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+		padding: 1.79104477%;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	.gallery-columns-2 .gallery-item { max-width: 50%; }
+	.gallery-columns-3 .gallery-item { max-width: 33.33%; }
+	.gallery-columns-4 .gallery-item { max-width: 25%; }
+	.gallery-columns-5 .gallery-item { max-width: 20%; }
+	.gallery-columns-6 .gallery-item { max-width: 16.66%; }
+	.gallery-columns-7 .gallery-item { max-width: 14.28%; }
+	.gallery-columns-8 .gallery-item { max-width: 12.5%; }
+	.gallery-columns-9 .gallery-item { max-width: 11.11%; }
+
+	.gallery-icon img { margin: 0 auto; }
+
+	.gallery-caption {
+		display: block;
+		padding: 10px 0;
+		color: #bbbbbb;
+	}
+
+	.gallery-columns-6 .gallery-caption,
+	.gallery-columns-7 .gallery-caption,
+	.gallery-columns-8 .gallery-caption,
+	.gallery-columns-9 .gallery-caption {
+		display: none;
+	}
+
+	/* Text meant only for screen readers */
+
+	.says,
+	.screen-reader-text {
+		position: absolute !important;
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+		clip: rect(1px, 1px, 1px, 1px);
+	}
+
+/* ==========================================================================
+   =WordPress Post(s)
+   ========================================================================== */
+
+   	.post {
+   		position: relative;
+		margin: 0 0 100px 0;
+   	}
+
+	.post.alt {
+		margin-top: 0;
+		margin-bottom: 60px;
+		color: #919191;
+	}
+
+    .post-thumbnail {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.post-thumbnail img { display: block; }
+
+	a.post-thumbnail {}
+
+	.sticky {
+	    padding: 60px 40px 40px;
+		border: 2px solid #e1e1e1;
+	}
+
+	.sticky.has-post-thumbnail { padding-top: 0; }
+
+	.sticky.has-post-thumbnail .post-thumbnail {
+		margin-right: -40px;
+		margin-left: -40px;
+	}
+
+	.sticky-post {
+		position: absolute;
+		top: 0;
+		padding: 5px 10px 0 10px;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.post-header {
+		position: relative;
+		padding: 0;
+	}
+
+	.post-title { margin-bottom: 0; }
+
+	.post-title:before {
+		display: block;
+		width: 50px;
+		border-top: 5px solid #1c9bdc;
+		margin-bottom: 20px;
+		content: "";
+	}
+    .type-testimonial .post-title:before
+    {
+	    display: none;
+
+    }
+    .type-testimonial .post-content p:last-of-type:after , .custom-testimonials p:last-of-type:after
+    {
+        font-family: 'FontAwesome', sans-serif;
+        content: '\f10e';
+        visibility: visible;
+        font-size: 10px;
+        margin-left: 0.27em;
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .post-type-archive-testimonial .span12 .page-header
+    {
+        margin-bottom: 50px;
+    }
+
+.type-testimonial .post-header
+{
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+.type-testimonial .post-title
+{
+    font-style: italic;
+    font-weight:normal;
+    text-transform: none;
+    font-size:30px;
+}
+
+    .type-testimonial .post-content p , .custom-testimonials p
+    {
+        position: relative;
+    }
+    .type-testimonial .post-content p:first-of-type:before , .custom-testimonials p:first-of-type:before
+    {
+        font-family: 'FontAwesome', sans-serif;
+        content: '\f10d';
+        font-size: 10px;
+        line-height: 0.9em;
+        margin-right: 0.27em;
+        float:left;
+
+    }
+
+
+	.post.alt .post-title:before { content: none; }
+
+	.post-content,
+	.post-summary { padding-top: 30px; }
+
+	.post-content *:last-child,
+	.post-summary *:last-child { margin-bottom: 20px; }
+
+	/*
+	 * 1. Clearfix hack
+	 */
+	.post-content:after,
+	.post-summary:after {	/* 1 */
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+
+	.post-content > :last-child,
+	.post-summary > :last-child { margin-bottom: 0; }
+
+	.post-content iframe { max-width: 100%; }
+
+	.post-content .more-link {
+		margin-top: 10px;
+		text-decoration: none;
+	}
+
+	.post-content .more-link,
+	.post-summary .more-link:after { white-space: nowrap; }
+
+	.post-content .more-link:after,
+	.post-summary .more-link:after {}
+
+	.post.alt .post-content .more-link:after,
+	.post.alt .post-summary .more-link:after {
+		position: relative;
+		top: 2px;
+		margin-left: 10px;
+		font-family: "FontAwesome";
+		font-size: 18px;
+		content: "\f0da";
+	}
+
+	.post.alt .post-content .more-link:hover { color: #252525; }
+
+    .post-footer { padding: 0; }
+
+	/*
+	 * 1. Clearfix hack
+	 */
+	.post-header:after,
+	.post-content:after,
+	.post-summary:after,
+	.post-footer:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	.sticky .posted-on { display: none; }
+
+	.posted-on:before,
+	.byline:before,
+	.cat-links:before,
+	.tags-links:before,
+	.comments-link:before,
+	.post-format:before,
+	.edit-link:before,
+	.full-size-link:before { /* margin-right: 10px; */ }
+
+	.post-footer-separator {
+		position: relative;
+		color: #919191;
+		display: inline-block;
+		margin: 0 10px;
+	}
+	.post-footer-separator:before {
+		content: " / ";
+	}
+
+	.posted-on,
+	.byline,
+	.cat-links,
+	.tags-links,
+	.comments-link,
+	.post-format,
+	.full-size-link {
+		/* margin-right: 10px; */
+		color: #919191;
+	}
+
+	.posted-on {
+		background-color: #1c9bdc;
+		border-radius: 4px;
+		color: #fff;
+		display: block;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 20px;
+		margin: -25px 0 25px -25px;
+		padding: 21px 0 19px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 75px;
+	}
+
+	.has-post-thumbnail .posted-on {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.post.alt .posted-on {
+		width: auto;
+		padding: 0;
+		margin: 0;
+		background-color: transparent;
+		color: #1c9bdc;
+		font-family: "Open Sans", sans-serif;
+		font-size: 11px;
+		font-weight: 900;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	.posted-on:before {}
+
+	.byline:before {}
+
+	.post.alt .cat-links {
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+
+	.post.alt .cat-links a { color: #919191; }
+
+	.post.alt .cat-links:before { content: none; }
+
+	.tags-links:before {}
+
+	.comments-link:before {}
+
+	.full-size-link:before {}
+
+	.edit-link:before {}
+
+	.comments-link,
+	.edit-link { white-space: nowrap; }
+
+	.comments-link a {
+		position: absolute;
+		bottom: 10px;
+		right: 0;
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-size: 14px;
+		line-height: 32px;
+		font-weight: 500;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.comments-link a:after {
+		position: absolute;
+		bottom: -5px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-top: 5px solid #1c9bdc;
+		border-right: 10px solid transparent;
+		content: "";
+	}
+
+	/*
+   .format-standard .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f0f6";
+	}
+
+	.format-aside .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f10c";
+	}
+
+	.format-image .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f03e";
+	}
+
+	.format-gallery .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f00a";
+	}
+
+	.format-video .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f1c8";
+	}
+
+	.format-status .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f044";
+	}
+
+	.format-quote .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f10e";
+	}
+
+	.format-link .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f0c1";
+	}
+
+	.format-chat .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f18d";
+	}
+
+	.format-audio .post-format:before {
+		font-family: 'FontAwesome';
+		content: "\f027";
+	}
+
+	*/
+
+	.format-aside {}
+
+	.format-image {}
+
+	.format-video {}
+
+	.format-quote {}
+
+	.format-gallery {}
+
+	.format-status {}
+
+	.format-link {}
+
+	.format-audio {}
+
+	.format-chat {}
+
+	@media (max-width: 767px) {
+
+		.posted-on { margin-left: -10px; }
+
+	}
+
+/* ==========================================================================
+   =WordPress pagination and navigation
+   ========================================================================== */
+
+   .pagination {
+		margin-bottom: 50px;
+	}
+
+	/*
+	 * 1. Clearfix hack
+	 */
+	.pagination:after { /* 1 */
+		visibility: hidden;
+		display: table;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	.pagination .nav-links {}
+
+	.pagination .page-numbers {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-right: 5px;
+		background-color: #e4edf1;
+		color: #252525;
+		font-size: 14px;
+		line-height: 50px;
+		font-weight: 700;
+		text-align: center;
+		text-decoration: none;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+
+	.pagination .page-numbers:last-child { margin-right: 0; }
+
+	.pagination .page-numbers:hover,
+	.pagination .page-numbers.current {
+		background-color: #1c9bdc;
+		color: #fff;
+	}
+
+	.pagination .current {}
+
+	.pagination .page-numbers.dots {
+		background-color: transparent;
+		color: #252525;
+	}
+
+	.pagination .page-numbers.dots:hover {}
+
+	.pagination .prev,
+	.pagination .next {}
+
+	.pagination .prev:before,
+	.pagination .next:before {
+		font-family: "FontAwesome";
+		font-size: 16px;
+	}
+
+	.pagination .prev:hover,
+	.pagination .prev:focus,
+	.pagination .next:hover,
+	.pagination .next:focus {}
+
+	.pagination .prev {}
+
+	.pagination .prev:before { content: "\f104"; }
+
+	.pagination .next {}
+
+	.pagination .next:before { content: "\f105"; }
+
+/* ==========================================================================
+   =WordPress Comments
+   ========================================================================== */
+
+	.comments-area { margin-top: 80px; }
+
+	.comments-area > :last-child { margin-bottom: 0; }
+
+	.comment-list + .comment-respond,
+	.comment-navigation + .comment-respond { padding-top: 20px; }
+
+	.comments-title,
+	.comment-reply-title {}
+
+	.comments-title { padding-bottom: 10px; }
+
+	.comment-list {
+		margin: 50px 0 80px;
+		list-style: none;
+	}
+
+	.comment-list > li.comment {
+		position: relative;
+		padding-top: 50px;
+	}
+
+	.comment-list > li.comment:before {
+		position: absolute;
+		top: 0;
+		left: 125px;
+		font-size: 36px;
+		line-height: 36px;
+		content: "\201c";
+	}
+
+	.comment-list .pingback,
+	.comment-list .trackback {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #e1e1e1;
+		margin-bottom: 20px;
+	}
+
+	.comment-list .pingback:last-child,
+	.comment-list .trackback:last-child {
+		border-bottom: 0;
+	}
+
+	.comment-list .children {
+		margin: 0 0 0 25px;
+		list-style: none;
+	}
+
+	.comment { position: relative; margin-bottom: 50px; min-height:65px; }
+	.comment .comment-body { margin-bottom: 50px; padding-left: 125px; }
+
+	.comment-author {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.comment-author a {
+		color: #252525;
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+
+	.comment-author small {
+		display: block;
+		font-size: 14px;
+		line-height: 16px;
+		font-weight: 400;
+		color: #919191;
+	}
+
+	.comment-author a:hover {}
+
+	.comment-author .avatar {
+		display: block;
+		width: 65px;
+		height: 65px;
+		margin-bottom: 10px;
+	}
+
+	.comment-meta {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0 15px;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-size: 14px;
+		border-radius: 4px;
+	}
+
+	.comment-meta a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.comment-metadata,
+	.pingback .edit-link {}
+
+	.comment-metadata a,
+	.pingback .edit-link a {}
+
+	.comment-metadata a:hover,
+	.pingback .edit-link a:hover {}
+
+	.comment-metadata a:hover,
+	.comment-metadata a:focus,
+	.pingback .edit-link a:hover,
+	.pingback .edit-link a:focus {}
+
+	.comment-metadata { margin-bottom: 20px; }
+
+	.comment-metadata .edit-link { margin-left: 15px; }
+
+	.pingback .edit-link { margin-left: 15px; }
+
+	.pingback .edit-link:before { top: 0; }
+
+	.comment-content ul,
+	.comment-content ol { margin: 0 0 20px 20px; }
+
+	.comment-content li > ul,
+	.comment-content li > ol { margin-bottom: 0; }
+
+	.comment-content > :last-child { margin-bottom: 0; }
+
+	.comment-list .reply {
+		margin-top: -10px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.comment-list .reply a { display: inline-block; }
+
+	.comment-list .reply a:hover,
+	.comment-list .reply a:focus {}
+
+	/*
+	 * 1. Clearfix hack
+	 */
+
+	.comment-list li:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	@media (max-width: 767px) {
+
+		.comment-list .children > li { padding-left: 0; }
+
+	}
+
+	@media (max-width: 500px) {
+
+		.comment-list > li.comment { padding-top: 0; }
+
+		.comment { margin-bottom: 25px; }
+
+		.comment .comment-body { padding-left: 0; margin-bottom: 25px; }
+
+		.comment-author{ position: relative; }
+
+		.comment-meta { position: relative; display: inline-block; margin: 10px 0; }
+
+		.comment-list > li.comment:before { display: none; }
+
+	}
+
+/* ==========================================================================
+   =WordPress Comments Navigation
+   ========================================================================== */
+
+	.comment-navigation {  }
+
+	.comment-navigation a {}
+
+	.comment-navigation a:hover,
+	.comment-navigation a:focus { text-decoration: none; }
+
+	.comment-navigation .nav-previous:not(:empty),
+	.comment-navigation .nav-next:not(:empty) { display: inline-block; }
+
+	.comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
+		margin: 0 10px;
+		font-weight: 400;
+		content: "\2215";
+	}
+
+	.comment-navigation .nav-previous a:before {
+		position: relative;
+		margin-right: 3px;
+		font-family: "FontAwesome";
+		content: "\f104";
+	}
+
+	.comment-navigation .nav-next a:after {
+		position: relative;
+		margin-left: 3px;
+		font-family: "FontAwesome";
+		content: "\f105";
+	}
+
+	.comment-navigation {
+		padding: 10px 0;
+		border-top: 1px solid #e1e1e1;
+		/*border-bottom: 1px solid #e1e1e1;*/
+	}
+
+	.comments-title + .comment-navigation { border-bottom: 0; }
+
+/* ==========================================================================
+   =WordPress Comment Form
+   ========================================================================== */
+
+	.comment-form { margin: 50px 0; }
+
+	.comment-form label {}
+
+	.comment-form input[type="text"],
+	.comment-form input[type="email"],
+	.comment-form input[type="url"],
+	.comment-form textarea {
+		width: 100%;
+	}
+
+	.comment-notes,
+	.comment-awaiting-moderation,
+	.logged-in-as,
+	.form-allowed-tags {}
+
+	.logged-in-as a:hover {}
+
+	.no-comments {
+		border-top: 1px solid #e1e1e1;
+		padding-top: 20px;
+	}
+
+	.comment-navigation + .no-comments { border-top: 0; }
+
+	.form-allowed-tags code {}
+
+	.form-submit { margin-bottom: 0; }
+
+	.required { color: #fc0103; }
+
+	.comment-reply-title small {}
+
+	.comment-reply-title small a {}
+
+/* ==========================================================================
+   =WordPress Widgets
+   ========================================================================== */
+
+/* =Widgets default
+   ========================================================================== */
+
+	.widget { margin-bottom: 80px; }
+
+	/**
+	 * 1. The last element of every widget shouldn't have a margin bottom. used for spacing purposes
+	 */
+
+	.widget > :last-child {
+		margin-bottom: 0; /* 1 */
+	}
+
+	#header-wrap .widget:last-child { margin-bottom: 0; }
+
+	#footer .widget { margin-bottom: 30px; }
+
+	#footer .widget:last-child { margin-bottom: 0; }
+
+	#footer-bottom .widget:last-child { margin-bottom: 0; }
+
+	.widget-title {
+		margin-bottom: 40px;
+		line-height: 18px;
+	}
+
+	#footer .widget-title {
+		font-family: "Hind", sans-serif;
+		font-size: 18px;
+		font-weight: 500;
+		text-transform: none;
+	}
+
+/* =Text Widget
+   ========================================================================== */
+
+	.widget_text {}
+
+	.textwidget {}
+
+	.copyright {
+		position: relative;
+		top: 1px;
+	}
+
+	.textwidget img + .copyright { margin-left: 10px; }
+
+	/**
+	 * 1. The last element inside text widget shouldn't have margin bottom
+	 */
+
+	.textwidget > :last-child {
+		margin-bottom: 0; /* 1 */
+	}
+
+/* =Search Widget
+   ========================================================================== */
+
+	.widget_search {}
+
+	#searchform { position: relative; }
+
+	#s {
+		display: inline-block;
+		width: 100%;
+		height: 45px;
+		padding-right: 35px;
+		background-color: transparent;
+		color: inherit;
+		border-bottom: 2px solid #e1e1e1;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		   		box-sizing: border-box;
+	}
+
+	#searchsubmit {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 45px;
+		padding: 0 15px;
+		background: url(../images/bg-search.png) no-repeat center center;
+	}
+
+	#header-wrap #searchsubmit,
+	#footer #searchsubmit { background-image: url(../images/bg-search-2.png); }
+
+/* =Recent Entries Widget
+   ========================================================================== */
+
+	.widget_recent_entries {}
+
+	.widget_recent_entries ul { list-style: none; }
+
+	.widget_recent_entries ul li { padding-bottom: 20px; }
+
+	.widget_recent_entries ul li:last-child { padding-bottom: 0; }
+
+	.widget_recent_entries ul li a {}
+
+	.widget_recent_entries ul li .post-date { display: block; }
+
+/* =Pages Widget
+   ========================================================================== */
+
+	.widget_pages {}
+
+	.widget_pages ul {
+		margin-left: 40px;
+		list-style: none;
+	}
+
+	.widget_pages ul li {}
+
+	.widget_pages a {
+		color: #252525;
+		font-weight: 500;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.widget_pages ul li.current_page_item a { color: #1c9bdc; }
+
+	.widget_pages a:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	.widget_pages .children {}
+
+	#footer-bottom .widget_pages ul {
+		margin-left: 0;
+		text-align: right;
+	}
+
+	#footer-bottom .widget_pages ul li { display: inline-block; }
+
+	#footer-bottom .widget_pages ul li:after {
+		margin: 0 5px 0 8px;
+		content: "|";
+	}
+
+	#footer-bottom .widget_pages ul li:last-child:after { content: none; }
+
+	#footer-bottom .widget_pages ul li.current_page_item a { color: #1c9bdc; }
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.widget_pages ul { margin-left: 0; }
+
+	}
+
+	@media (max-width: 767px) {
+
+		#footer-bottom .widget_pages ul { text-align: left; }
+
+	}
+
+/* =Archive Widget
+   ========================================================================== */
+
+	.widget_archive {}
+
+	.widget_archive ul {
+		margin-left: 40px;
+		list-style: none;
+	}
+
+	.widget_archive ul li {}
+
+	.widget_archive a {
+		color: #252525;
+		font-weight: 500;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.widget_archive a:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	.widget_archive select {}
+
+	.widget_archive option {}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.widget_archive ul { margin-left: 0; }
+
+	}
+
+/* =Categories Widget
+   ========================================================================== */
+
+	.widget_categories {}
+
+	.widget_categories ul {
+		margin-left: 40px;
+		list-style: none;
+	}
+
+	.widget_categories ul li {}
+
+	.widget_categories a {
+		color: #252525;
+		font-weight: 500;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.widget_categories a:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	.widget_categories ul ul.children {}
+
+	.widget_categories select{}
+
+	.widget_categories select#cat {}
+
+	.widget_categories select.postform {}
+
+	.widget_categories option {}
+
+	.widget_categories .level-0 {}
+
+	.widget_categories .level-1 {}
+
+	.widget_categories .level-2 {}
+
+	.widget_categories .level-3 {}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.widget_categories ul { margin-left: 0; }
+
+	}
+
+/* =Meta Widget
+   ========================================================================== */
+
+	.widget_meta {}
+
+	.widget_meta ul {
+		margin-left: 40px;
+		list-style: none;
+	}
+
+	.widget_meta ul li {}
+
+	.widget_meta a {
+		color: #252525;
+		font-weight: 500;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.widget_meta a:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.widget_meta ul { margin-left: 0; }
+
+	}
+
+/* =Recent Comments Widget
+   ========================================================================== */
+
+	.widget_recent_comments {}
+
+	#recentcomments { list-style: none; }
+
+	#recentcomments li {}
+
+	#recentcomments li a {}
+
+	.recentcomments {}
+
+/* =Tag Cloud Widget
+   ========================================================================== */
+
+	.widget_tag_cloud {}
+
+	.widget_tag_cloud a {
+		position: relative;
+		overflow: hidden;
+		display: inline-block;
+		padding: 7px 15px;
+		border-radius: 30px;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-family: "Open Sans", sans-serif;
+		font-size: 14px;
+		font-weight: 600;
+		text-decoration: none;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+		-webkit-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+				transform: translateZ(0);
+	}
+
+	.widget_tag_cloud a:after {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		border-radius: 30px;
+		background-color: #d3d3d3;
+		content: "";
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+		-webkit-transform: scale(2);
+			-ms-transform: scale(0);
+				transform: scale(0);
+	}
+
+	.widget_tag_cloud a:hover {
+		background: #d3d3d3;
+		color: #fff;
+	}
+
+	.widget_tag_cloud a:hover:after {
+		-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+				transform: scale(1);
+	}
+
+	#header-wrap .widget_tag_cloud a {
+		background-color: #fff;
+		color: #252525;
+	}
+
+	#footer .widget_tag_cloud a { color: #fff; }
+
+/* =Calendar Widget
+   ========================================================================== */
+
+	.widget_calendar {}
+
+	#calendar_wrap {}
+
+	#calendar_wrap th,
+	#calendar_wrap td {
+		padding: 0;
+		line-height: 2.5;
+		text-align: center;
+	}
+
+	#wp-calendar tr td {}
+
+	#wp-calendar caption {
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	#wp-calendar tbody a {
+		display: block;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-weight: 700;
+	}
+
+	#wp-calendar #today {}
+
+	#wp-calendar #prev {}
+
+	#wp-calendar #next {}
+
+	#wp-calendar #next a {}
+
+	#wp-calendar #prev a {}
+
+/* =Nav Menu Widget
+   ========================================================================== */
+
+	.widget_nav_menu {}
+
+	.widget_nav_menu ul {
+		margin-left: 40px;
+		list-style: none;
+	}
+
+	.widget_nav_menu ul li {}
+
+	.widget_nav_menu a {
+		color: #252525;
+		font-weight: 500;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.widget_nav_menu a:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	.widget_nav_menu .sub-menu {}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.widget_nav_menu ul { margin-left: 0; }
+
+	}
+
+/* =RSS Widget
+   ========================================================================== */
+
+	.widget_rss {}
+
+	.widget_rss ul {
+		margin: 0;
+		list-style: none;
+	}
+
+	.widget_rss li { margin-bottom: 20px; }
+
+	.widget_rss ul:last-child,
+	.widget_rss li:last-child { margin-bottom: 0; }
+
+	.widget_rss .rsswidget {}
+
+	.widget_rss .rsswidget img { margin-top: -4px; }
+
+	.widget_rss .rss-date,
+	.widget_rss cite {
+		display: block;
+		line-height: 3;
+		font-weight: 700;
+	}
+
+/* ==========================================================================
+   =WordPress Custom Widgets
+   ========================================================================== */
+
+/* =ELLUL_SCHRANZ Twitter widget
+   ========================================================================== */
+
+	.ellul_schranz_twitter_widget{}
+
+	.ellul_schranz-tweet-list .tweet { word-wrap: break-word; }
+
+	.ellul_schranz-tweet-list ul { list-style: none; }
+
+	.ellul_schranz-tweet-list .interact { text-align: center; }
+
+	.ellul_schranz-tweet-list .interact a { margin-right: 10px; }
+
+	.ellul_schranz-tweet-list .interact a:last-child { margin-right: 0; }
+
+/* =ELLUL_SCHRANZ Flickr widget
+   ========================================================================== */
+
+	.ellul_schranz_widget_flickr {}
+
+	.flickr-feed {}
+
+	.flickr-feed .flickr_badge_image { display: inline; }
+
+	.flickr-feed img {
+		width: 80px;
+		height: auto;
+		padding: 0 3px 3px 0;
+		border: none;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.flickr-feed img { width: 75px; }
+
+	}
+
+/* =ELLUL_SCHRANZ Contact Info widget
+   ========================================================================== */
+
+	.ellul_schranz_widget_contact_info {}
+
+	.ellul_schranz_widget_contact_info ul {
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	.ellul_schranz_widget_contact_info ul li {
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.ellul_schranz_widget_contact_info ul li:last-child { margin-bottom: 0; }
+
+	.ellul_schranz_widget_contact_info ul li a {}
+
+
+/* =ELLUL_SCHRANZ Latest posts widget
+   ========================================================================== */
+
+	.ellul_schranz_widget_latest_posts {}
+
+	.ellul_schranz_widget_latest_posts ul { list-style: none; }
+
+	.ellul_schranz_widget_latest_posts ul li { margin-bottom: 30px; }
+	.ellul_schranz_widget_latest_posts ul li:last-child { margin-bottom: 0; }
+
+	.ellul_schranz_widget_latest_posts ul li img {
+		float: left;
+		margin: 5px 15px 0 0;
+	}
+
+	.ellul_schranz_widget_latest_posts ul li .title {
+		margin-bottom: 20px;
+		color: #282828;
+	}
+
+	.ellul_schranz_widget_latest_posts ul li .title:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	.ellul_schranz_widget_latest_posts ul li .comments {}
+
+	.ellul_schranz_widget_latest_posts ul li .comments a {
+		position: relative;
+		display: inline-block;
+		padding: 0 6px;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-size: 10px;
+		line-height: 18px;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.ellul_schranz_widget_latest_posts ul li .comments a:after {
+		position: absolute;
+		bottom: -4px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-top: 4px solid #1c9bdc;
+		border-right: 7px solid transparent;
+		content: "";
+	}
+
+	/*
+	 * 1. Clearfix hack
+	 */
+
+	.ellul_schranz_widget_latest_posts ul li:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	#header-wrap .ellul_schranz_widget_latest_posts ul li .comments a {
+		background-color: #fff;
+		color: #252525;
+	}
+
+	#header-wrap .ellul_schranz_widget_latest_posts ul li .comments a:after { border-top-color: #fff;  }
+
+	#footer .ellul_schranz_widget_latest_posts ul li .comments a { color: #fff; }
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.ellul_schranz_widget_latest_posts ul li img { display: none; }
+
+	}
+
+/* =ELLUL_SCHRANZ Recommended posts widget
+   ========================================================================== */
+
+	.ellul_schranz_widget_recommended {}
+
+	.ellul_schranz_widget_recommended ul {
+		margin: 0 -7px;
+		list-style: none;
+	}
+
+	.ellul_schranz_widget_recommended ul li {
+		float: left;
+		width: 50%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+		padding: 0 7px;
+		margin-bottom: 30px;
+	}
+
+	.ellul_schranz_widget_recommended ul li:last-child { margin-bottom: 0; }
+
+	.ellul_schranz_widget_recommended ul li img {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.ellul_schranz_widget_recommended ul li .title { color: #282828; }
+
+	.ellul_schranz_widget_recommended ul li .title:hover {
+		color: #1c9bdc;
+		text-decoration: none;
+	}
+
+	.ellul_schranz_widget_recommended ul li .comments {}
+
+	.ellul_schranz_widget_recommended ul li .comments a {
+		position: relative;
+		display: inline-block;
+		padding: 0 6px;
+		background-color: #1c9bdc;
+		color: #fff;
+		font-size: 10px;
+		line-height: 20px;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.ellul_schranz_widget_recommended ul li .comments a:after {
+		position: absolute;
+		bottom: -4px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-top: 4px solid #1c9bdc;
+		border-right: 7px solid transparent;
+		content: "";
+	}
+
+	/*
+	 * 1. Clearfix hack
+	 */
+
+	.ellul_schranz_widget_recommended ul:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	#header-wrap .ellul_schranz_widget_recommended ul li .comments a {
+		background-color: #fff;
+		color: #252525;
+	}
+
+	#header-wrap .ellul_schranz_widget_recommended ul li .comments a:after { border-top-color: #fff;  }
+
+	#footer .ellul_schranz_widget_recommended ul li .comments a { color: #fff; }
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.ellul_schranz_widget_recommended ul li {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+/* =ELLUL_SCHRANZ Navigation widget
+   ========================================================================== */
+
+	.ellul_schranz_widget_navigation {}
+
+	.ellul_schranz_widget_navigation ul {
+		list-style-type: none;
+		list-style-position: outside;
+	}
+
+	.ellul_schranz_widget_navigation li { border-bottom: 1px solid #e1e1e1; }
+
+	.ellul_schranz_widget_navigation li:last-child { border-bottom: none; }
+
+	.ellul_schranz_widget_navigation li a {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.ellul_schranz_widget_navigation li a:hover { text-decoration: none; }
+
+/* =ELLUL_SCHRANZ Social media widget
+   ========================================================================== */
+
+	.ellul_schranz_social_media_widget {
+		padding: 40px 10px 35px;
+		background-color: #1c9bdc;
+		color: #fff;
+		text-align: center;
+	}
+
+	.ellul_schranz_social_media_widget .social-icon { color: #fff; }
+
+	/*
+	 * 1. Clearfix hack
+	 */
+
+	.ellul_schranz_social_media_widget:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	#header-wrap .ellul_schranz_social_media_widget { padding: 0; }
+
+	#footer .ellul_schranz_social_media_widget,
+	#footer-bottom .ellul_schranz_social_media_widget { padding: 20px 0 15px 0; }
+
+	#footer .ellul_schranz_social_media_widget .social-icon,
+	#footer-bottom .ellul_schranz_social_media_widget .social-icon { color: #fff; }
+
+	#footer-bottom .ellul_schranz_social_media_widget:first-child { margin-top: -20px; }
+	#footer-bottom .ellul_schranz_social_media_widget:last-child { margin-bottom: -15px; }
+
+	@media (max-width: 767px) {
+
+		#footer-bottom .ellul_schranz_social_media_widget:first-child { margin-top: 0; }
+
+	}

@@ -1,0 +1,546 @@
+/**
+ * 	Name: components.css
+ *
+ *  Styling for the components that create the page content: accordion, tabs, pie charts etc.
+ *
+ *  T.O.C
+ *
+ *	=Portfolio Item
+ *	=Portfolio Filter
+ *	=Portfolio Pagination
+ *	=Portfolio Grid
+ *	=Portfolio Strip
+ *
+ */
+
+/* ==========================================================================
+   =Portfolio Item
+   ========================================================================== */
+
+	.portfolio-item {
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.portfolio-item-preview {
+		position: relative;
+		margin-bottom: 25px;
+	}
+
+	.portfolio-item-preview > img {
+		display: block;
+		width: 100%;
+	}
+
+	.portfolio-item-overlay {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #1c9bdc;
+		color: #fff;
+		opacity: 0;
+		-webkit-transform: scale(0.5);
+			-ms-transform: scale(0.5);
+				transform: scale(0.5);
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+
+	.portfolio-item-overlay a,
+	.portfolio-item-overlay .portfolio-item-description h3 a { color: #fff; }
+
+	.portfolio-item-overlay a:hover,
+	.portfolio-item-overlay .portfolio-item-description h3 a:hover { color: #252525; }
+
+	.portfolio-item:hover .portfolio-item-overlay {
+		opacity: 1;
+		-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+				transform: scale(1);
+	}
+
+	.portfolio-item-overlay-actions {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		opacity: 0;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+		-webkit-transition: all 0.3s 0.1s;
+				transition: all 0.3s 0.1s;
+	}
+
+	.portfolio-item-description + .portfolio-item-overlay-actions { margin-top: -30px; }
+
+	.portfolio-item-overlay-actions .portfolio-item-zoom {
+		font-family: "Open Sans", sans-serif;
+		font-size: 30px;
+		font-weight: 600;
+		text-decoration: none;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.portfolio-item-description h3 {
+		margin-bottom: 0;
+		font-family: "Hind", sans-serif;
+		font-weight: 700;
+		text-transform: none;
+	}
+
+	.portfolio-item-description .load-more { margin-top: 20px; }
+
+	.portfolio-item-description *:last-child { margin-bottom: 0; }
+
+	.portfolio-item.alt-2 .portfolio-item-description {
+		position: relative;
+		z-index: 1;
+		padding: 30px 25px 30px 60px;
+		border: 2px solid #e1e1e1;
+		margin: -15px 0 0 -90px;
+		background-color: #fff;
+		color: #252525;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+
+	.portfolio-item.alt .portfolio-item-description h3:before,
+	.portfolio-item.alt-2 .portfolio-item-description h3:before {
+		display: block;
+		width: 50px;
+		border-top: 5px solid #1c9bdc;
+		margin-bottom: 10px;
+		content: "";
+		-webkit-transition: border-color 0.3s;
+				transition: border-color 0.3s;
+	}
+
+	.portfolio-item.alt .portfolio-item-description h6,
+	.portfolio-item.alt-2 .portfolio-item-description h6 {
+		margin-bottom: 20px;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.portfolio-item-description h6 {
+		color: #252525;
+		font-weight: 600;
+		font-style: italic;
+		text-transform: none;
+	}
+
+	.portfolio-item-overlay .portfolio-item-description {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		margin-top: 30px;
+		text-align: center;
+		opacity: 0;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+		-webkit-transition: all 0.3s 0.1s;
+				transition: all 0.3s 0.1s;
+	}
+
+	.portfolio-item-description h3 a { color: #1c9bdc; }
+	.portfolio-item-description h3 a:hover { color: #252525; }
+
+	.portfolio-item-preview + .portfolio-item-description {
+		margin: 30px 0;
+		text-align: center;
+	}
+
+	.portfolio-item-preview + .portfolio-item-description h3 { font-size: 20px; }
+
+	.portfolio-item:hover .portfolio-item-overlay-actions,
+	.portfolio-item:hover .portfolio-item-overlay .portfolio-item-description {
+		top: 50%;
+		opacity: 1;
+	}
+
+	.portfolio-item.alt-2:hover .portfolio-item-description {
+		border-color: #1c9bdc;
+		background-color: #1c9bdc;
+		color: #fff;
+	}
+
+	.portfolio-item.alt-2:hover .portfolio-item-description h3:before { border-color: #fff; }
+
+	.portfolio-item.alt-2:hover .portfolio-item-description a,
+	.portfolio-item.alt-2:hover .portfolio-item-description h6 { color: #fff; }
+
+	.portfolio-item.alt-2:hover .portfolio-item-description a:hover { color: #252525; }
+
+	@media (max-width: 767px) {
+
+		.portfolio-item.alt-2 .portfolio-item-description {
+			padding-left: 25px;
+			margin-left: 0;
+		}
+
+	}
+
+/* ==========================================================================
+   =Portfolio Filter
+   ========================================================================== */
+
+	.portfolio-filter ul {
+		margin-bottom: 30px;
+		list-style: none;
+		text-align: center;
+	}
+
+	.portfolio-filter ul li {
+		display: inline-block;
+		margin-right: 40px;
+	}
+
+	.portfolio-filter ul li:last-child { margin-right: 0; }
+
+	.portfolio-filter ul li a {
+		color: #252525;
+		font-family: "Open Sans", sans-serif;
+		font-size: 18px;
+		font-weight: 800;
+		text-decoration: none;
+		text-transform: uppercase;
+		-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+	}
+
+	.portfolio-filter ul li a:after {
+		position: relative;
+		top: -30px;
+		display: block;
+		color: transparent;
+		font-family: "iconfontcustom";
+		font-size: 14px;
+		content: "\e9f9";
+		-webkit-transition: top 0.3s;
+				transition: top 0.3s;
+	}
+
+	.portfolio-filter ul li a:hover,
+	.portfolio-filter ul li a.active { color: #1c9bdc; }
+
+	.portfolio-filter ul li a.active:after {
+		top: 0;
+		color: #1c9bdc;
+	}
+
+	@media (max-width: 767px) {
+
+		.portfolio-filter ul li {
+			display: block;
+			margin-right: 0;
+			margin-bottom: 10px;
+		}
+
+		.portfolio-filter ul li:last-child { margin-bottom: 0; }
+
+	}
+
+/* ==========================================================================
+   =Portfolio Load More
+   ========================================================================== */
+
+   .load-more {
+		position: relative;
+		overflow: hidden;
+		display: inline-block;
+		padding: 11px 50px;
+		border-radius: 30px;
+		margin: 0 5px 20px 0;
+		background-color: #1c9bdc;
+		color: #fff !important;
+		font-size: 14px;
+		font-weight: 600;
+		text-decoration: none !important;
+		vertical-align: middle;
+		cursor: pointer;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+		-webkit-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+				transform: translateZ(0);
+	}
+
+	.load-more:after {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		border-radius: 30px;
+		background-color: #d3d3d3;
+		content: "";
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+		-webkit-transform: scale(2);
+			-ms-transform: scale(0);
+				transform: scale(0);
+	}
+
+	.load-more:focus { outline: 0; }`
+
+/* ==========================================================================
+   =Portfolio Pagination
+   ========================================================================== */
+
+	.portfolio-pagination {
+		margin-bottom: 50px;
+	}
+
+	/*
+	 * 1. Clearfix hack
+	 */
+	.portfolio-pagination:after { /* 1 */
+		visibility: hidden;
+		display: table;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	.portfolio-pagination .nav-links {}
+
+	.portfolio-pagination .page-numbers {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-right: 5px;
+		background-color: #e4edf1;
+		color: #252525;
+		font-size: 14px;
+		line-height: 50px;
+		font-weight: 700;
+		text-align: center;
+		text-decoration: none;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+
+	.portfolio-pagination .page-numbers:last-child { margin-right: 0; }
+
+	.portfolio-pagination .page-numbers:hover,
+	.portfolio-pagination .page-numbers.current {
+		background-color: #1c9bdc;
+		color: #fff;
+	}
+
+	.portfolio-pagination .current {}
+
+	.portfolio-pagination .page-numbers.dots {
+		background-color: transparent;
+		color: #252525;
+	}
+
+	.portfolio-pagination .page-numbers.dots:hover {}
+
+	.portfolio-pagination .prev,
+	.portfolio-pagination .next {}
+
+	.portfolio-pagination .prev:before,
+	.portfolio-pagination .next:before {
+		font-family: "FontAwesome";
+		font-size: 16px;
+	}
+
+	.portfolio-pagination .prev:hover,
+	.portfolio-pagination .prev:focus,
+	.portfolio-pagination .next:hover,
+	.portfolio-pagination .next:focus {}
+
+	.portfolio-pagination .prev {}
+
+	.portfolio-pagination .prev:before { content: "\f104"; }
+
+	.portfolio-pagination .next {}
+
+	.portfolio-pagination .next:before { content: "\f105"; }
+
+/* ==========================================================================
+   =Portfolio Grid
+   ========================================================================== */
+
+   .portfolio-grid {
+		margin-bottom: 60px;
+		list-style: none;
+	}
+
+	.portfolio-grid.gutter { margin: -15px -15px 60px -15px; }
+
+	.portfolio-grid .item {
+		float: left;
+		width: 33.333333%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+
+	.portfolio-grid.gutter .item { padding: 15px; }
+
+	.portfolio-grid .portfolio-item,
+	.portfolio-grid .portfolio-item-preview { margin-bottom: 0; }
+
+	.portfolio-grid.three-cols .item { width: 33.333333%; }
+	.portfolio-grid.four-cols .item { width: 25%; }
+	.portfolio-grid.five-cols .item { width: 25%; }
+
+	/*
+	 * 1. Clearfix hack
+	 */
+	.portfolio-grid:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	@media (min-width: 1200px) {
+
+		.portfolio-grid.five-cols .item { width: 20%; }
+
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.portfolio-grid.four-cols .item,
+		.portfolio-grid.five-cols .item { width: 33.333333%; }
+
+	}
+
+	@media (max-width: 767px) {
+
+		.portfolio-grid .item {
+			float: none;
+			width: 100%;
+		}
+
+		.portfolio-grid.three-cols .item,
+		.portfolio-grid.four-cols .item,
+		.portfolio-grid.five-cols .item { width: 100%; }
+
+	}
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.portfolio-grid .item {
+			float: left;
+			width: 50%;
+		}
+
+		.portfolio-grid.three-cols .item,
+		.portfolio-grid.four-cols .item,
+		.portfolio-grid.five-cols .item { width: 50%; }
+
+	}
+
+/* ==========================================================================
+   =Portfolio Strip
+   ========================================================================== */
+
+   .portfolio-strip {
+		margin-bottom: 30px;
+		list-style: none;
+	}
+
+	.portfolio-strip .item {
+		float: left;
+		width: 25%;
+	}
+
+	.portfolio-strip .item:last-child { display: none; }
+
+	.portfolio-strip .portfolio-item { margin-bottom: 0; }
+
+	/*
+	 * 1. Clearfix hack
+	 */
+	.portfolio-strip:after { /* 1 */
+		visibility: hidden;
+		display: block;
+		height: 0;
+		font-size: 0;
+		content: " ";
+		clear: both;
+	}
+
+	@media (min-width: 1200px) {
+
+		.portfolio-strip .item { width: 20%; }
+		.portfolio-strip .item:last-child { display: block; }
+
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+
+		.portfolio-strip .item { width: 33.3333333333%; }
+		.portfolio-strip .item:last-child { display: block; }
+
+	}
+
+	@media (max-width: 767px) {
+
+		.portfolio-strip .item {
+			float: none;
+			width: 100%;
+		}
+
+		.portfolio-strip .item:last-child { display: block; }
+
+	}
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.portfolio-strip .item {
+			float: left;
+			width: 50%;
+		}
+
+	}
+
+/* ==========================================================================
+   =Portfolio Loader
+   ========================================================================== */
+	.erp-loader{ background: #fff url('../images/upload-load.gif') no-repeat center center; width: 180px; height: 180px; border-radius: 180px; margin: 0 auto; }
+
+/* ==========================================================================
+   =Portfolio Iframe
+   ========================================================================== */
+	.erp-wrap{ padding: 25px; position: relative; }
+	.erp-iframe-wrap{ text-align: center; padding: 0; height: 100%; }
+	.erp-iframe-wrap .mfp-close{ background: #1c9bdc; border-radius: 25px; padding: 0; opacity: 1; color: #fff; cursor: pointer; top: 35px; right: 35px; }
+	.erp-iframe-wrap .erp-loader{ position: relative; margin: 100px auto 0; }
+	.erp-iframe-wrap .mfp-iframe{ background: #fff; box-shadow: none; max-width: 980px; width: 100%; height: 100%; margin: 100px auto; position: absolute; left: -9999px; }
+
+	@media (min-width: 1400px) {
+		.mfp-iframe-scaler iframe { max-width: 1300px; }
+	}
+
+	@media (min-width: 768px) and (max-width: 979px) {
+		.mfp-iframe-scaler iframe{ max-width: 100%; }
+	}
+
+	@media (max-width: 767px) {
+		.mfp-iframe-scaler iframe { max-width: 100%; }
+	}
+
+/* ==========================================================================
+   =Alignments
+   ========================================================================== */
+	.text-left{ text-align: left; }
+	.text-center{ text-align: center; }
+	.text-right{ text-align: right; }

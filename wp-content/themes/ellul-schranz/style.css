@@ -1,0 +1,1187 @@
+/*
+Theme Name: Ellul Schranz
+Theme URI: http://niu.com.mt
+Description: A clean and well-structured theme with a focus on creating an immersive experience for the visitor.
+Version: 1.0.0
+Author: NIU Ltd.
+Author URI: http://niu.com.mt
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
+Text Domain: ellul-schranz
+License: GPLv2 or later
+License URI: www.gnu.org/licenses/gpl-2.0.html
+*/
+
+h1{
+    font-size: 25px !important;
+}
+
+h2{
+    font-size: 20px !important;
+}
+
+/*-----Header-----*/
+#logo {
+    position: absolute;
+    left: 35px;
+    top: -40px;
+}
+
+.testimonial-slider-2:before {
+    display: none;
+}
+
+.vc_row {
+    margin-bottom: 60px;
+}
+
+.vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#header .sf-menu > li > a, .sf-menu > li.dropdown > a {
+    padding: 42px 7px 37px;
+}
+
+.medium-icon .fa-medium:hover  {
+    color: #00fd8d!important;
+}
+
+.telegram-icon .fa-telegram:hover  {
+    color: #32afed!important;
+}
+
+/*-----End Header-----*/
+
+/*-----Content-----*/
+#header-wrap .span1, #header-wrap .span9 {
+    padding-right: 1px !important;
+}
+
+#page-header h3 {
+    display: none;
+}
+
+.wpbwrapper .home-services-cats {
+    list-style: none;
+    width: 100%;
+}
+
+.validation_error {
+    display: none;
+}
+
+li.home-services-images {
+    width: 50%;
+    height: 860px;
+    padding: 0;
+    background-color: transparent !important;
+}
+
+
+
+.container .wpb_row li.vc_row-fluid {
+    margin-left: 50px;:;
+}
+
+.home-services-cats:after,
+.home-services-cats li:after {
+    display: none !important;
+}
+
+.menu-item:after {
+    content: "|";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: -1px !important;
+}
+
+#menu-item-856:after {
+    visibility: hidden;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: white !important;
+}
+
+.tax-servicescategories .post-content, .tax-servicescategories .post-content span {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    text-transform: none !important;
+    padding-top: 15px !important;
+}
+
+h6.testimonials {
+    padding-top: 5px;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+.h6-custom-testimonials {
+    padding-top: 5px;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+.headline:before {
+    width: 100px;
+}
+
+.prev-posts-link {
+    float: left;
+}
+
+.next-posts-link {
+    float: right;
+}
+
+.vc_separator.vc_separator_no_text:not(.vc_sep_shadow) .vc_sep_holder_l {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.testimonial-title {
+    font-style: italic;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 30px;
+}
+
+.niu-services-list.home-services-cats .home-services-images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-services-titles {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.niu-services-list {
+    margin: 0;
+}
+
+.wpb_wrapper .wpb_content_element {
+    margin-bottom: 0;
+}
+
+.btn {
+    background-color: #ffffff !important;
+    border: 3px solid #002363;
+    color: #000 !important;
+    border-radius: 5px!important;
+}
+
+.btn:after {
+    border-radius: 0px!important;
+    background-color: #002363!important;
+}
+
+.gform_wrapper .bordered-inputs .gform_footer input.button,
+.gform_wrapper .bordered-inputs .gform_footer input[type=submit],
+.gform_wrapper .bordered-inputs .gform_page_footer input.button,
+.gform_wrapper .bordered-inputs .gform_page_footer input[type=submit] {
+    background-color: #ffffff !important;
+    border: 3px solid #002363;
+    color: #000 !important;
+    border-radius: 5px!important;
+}
+
+.gform_wrapper .bordered-inputs .gform_footer input.button:after,
+.gform_wrapper .bordered-inputs .gform_footer input[type=submit]:after,
+.gform_wrapper .bordered-inputs .gform_page_footer input.button:after,
+.gform_wrapper .bordered-inputs .gform_page_footer input[type=submit]:after {
+    border-radius: 0px!important;
+    background-color: #002363!important;
+}
+
+.home-services-paragraph,
+.home-services-titles .home-services-paragraph
+.testimonial {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: none;
+    padding-top: 15px;
+}
+
+#content {
+    padding-bottom: 0;
+    padding-top: 105px;
+}
+
+.news-headline {
+    padding-bottom: 50px !important;
+}
+
+.vc_row {
+    margin-bottom: 0;
+}
+
+.type-testimonial .post-content {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: none;
+    padding-top: 15px;
+}
+
+#breadcrumbs {
+    padding-bottom: 40px;
+}
+
+.custom-testimonials .testimonial-title {
+    padding-top: 20px;
+}
+
+.slides .testimonial, .testimonial_header h3 {
+    color: #ffffff;
+}
+
+.carousel_style.vc_row {
+    margin-bottom: 0;
+}
+
+.carousel_style.vc_row .headline:before {
+    background-color: #ffffff;
+}
+
+.post-type-archive-testimonial .span12 .page-header:before {
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: #002362;
+    border-radius: 100px 100px 100px 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.home-services-titles:before {
+    content: '';
+    width: 80px;
+    height: 5px;
+    background: #002362;
+    border-radius: 100px 100px 100px 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+li.home-niu-services-list {
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: none;
+    font-style: italic;
+    background-color: transparent !important;
+    color: #6f6f6f;
+    padding: 0 0 5px;
+    width: 50%;
+    list-style: none;
+    position: relative;
+}
+
+li.home-niu-services-list a {
+    margin-left: 15px;
+}
+
+ul.niu-services-list li.home-niu-services-list a {
+    color: #6f6f6f;
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+ul.niu-services-list li.home-niu-services-list a:hover {
+    color: #002362;
+}
+
+li > ul {
+    margin-left: 0;
+}
+
+body.tax-servicescategories .home-niu-services-list:before {
+    position: relative;
+    top: 0;
+}
+
+.home-niu-services-list:before {
+    content: " ";
+    margin-right: 15px;
+    width: 4px;
+    height: 4px;
+    border: 2px solid #1c9bdc;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+}
+
+.sub-menu-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.type-service .btn {
+    background-color: #99FF00;
+    color: #000 !important;
+}
+
+.type-service .btn:hover {
+    color: #fff!important;
+}
+
+.gf_browser_iphone .niu-services-list {
+    margin-bottom: 83px !important;
+}
+
+.gf_browser_safari.gform_wrapper ul.gform_fields li.gfield, .gf_browser_gecko.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0;
+}
+
+ul, ol {
+    margin-left: 30px;
+    list-style-position: outside;
+}
+
+.hs-list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#categories-list-button {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#categories-list-button button {
+    padding: 6px 25px;
+
+}
+
+ul.hs-list {
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.post-title:before {
+    width: 100px !important;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.post-title {
+    pointer-events: none;
+    cursor: default;
+}
+
+.has-post-thumbnail .posted-on {
+    position: relative;
+
+}
+
+#page-header p {
+    visibility: hidden;
+}
+
+/*-----Footer-----*/
+
+#footer .textwidget a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Start - Gravity Forms */
+.gform_wrapper .no-labels .top_label .gfield_label,
+.gform_wrapper .no-labels label {
+    display: none;
+}
+
+/*.ginput_container*/
+
+body .gform_wrapper .bordered-inputs .top_label div.ginput_container {
+    margin-top: 0;
+}
+
+.gform_wrapper .bordered-inputs input[type="text"],
+.gform_wrapper .bordered-inputs input[type="password"],
+.gform_wrapper .bordered-inputs input[type="date"],
+.gform_wrapper .bordered-inputs input[type="datetime"],
+.gform_wrapper .bordered-inputs input[type="datetime-local"],
+.gform_wrapper .bordered-inputs input[type="month"],
+.gform_wrapper .bordered-inputs input[type="week"],
+.gform_wrapper .bordered-inputs input[type="email"],
+.gform_wrapper .bordered-inputs input[type="number"],
+.gform_wrapper .bordered-inputs input[type="search"],
+.gform_wrapper .bordered-inputs input[type="tel"],
+.gform_wrapper .bordered-inputs input[type="time"],
+.gform_wrapper .bordered-inputs input[type="url"],
+.gform_wrapper .bordered-inputs input[type="color"],
+.gform_wrapper .bordered-inputs textarea {
+    margin-bottom: 0;
+    background: #000;
+    border-bottom: 1px solid;
+    border-color: #535353;
+    padding: 10px 15px !important;
+}
+
+.testimonial-slider-2 .testimonial > h4 span {
+    color: #1c9bdc;
+}
+
+body .gform_wrapper .bordered-inputs ul li.gfield {
+    margin-top: 0;
+}
+
+.gform_wrapper .bordered-inputs .gform_footer input.button,
+.gform_wrapper .bordered-inputs .gform_footer input[type=submit],
+.gform_wrapper .bordered-inputs .gform_page_footer input.button,
+.gform_wrapper .bordered-inputs .gform_page_footer input[type=submit] {
+    width: 100%;
+    background: #99FF00;
+    border-radius: 0;
+    margin: 0;
+    color: #000;
+}
+
+#input_1_1, #input_1_2, #input_1_3, #input_1_4 {
+    color: white;
+}
+
+.gform_wrapper .bordered-inputs .gform_footer {
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    padding: 100px 0 0 0;
+}
+
+.gform_wrapper.bordered-inputs_wrapper {
+    margin: -3px 0 0 0;
+}
+
+.rv-subtitle-slide:before {
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: #002362;
+    border-radius: 100px 100px 100px 100px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right: auto;
+}
+
+.gform_wrapper li.gfield.gfield_error,
+#gform_wrapper_1.gform_wrapper li.gfield.gfield_error,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background: black !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    margin-top: -5px !important;
+}
+
+.gform_wrapper .field_description_below .gfield_description {
+    padding-top: 0 !important;
+}
+
+#footer-bottom #text-7.widget_text {
+    float: right;
+    margin-right: 10px;
+}
+
+#footer-bottom .widget_text {
+    margin-bottom: 0;
+}
+
+.gform_wrapper.gf_browser_chrome .gform_body {
+    width: calc(100% + 16px) !important;
+}
+
+#footer-bottom .ellul_schranz_social_media_widget {
+    float: right;
+    padding: 20px 20px 15px 20px;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    /*background-color: #fff;*/
+}
+
+body #footer-bottom .ellul_schranz_social_media_widget .social-icon {
+    /*color: #002363;*/
+}
+
+
+#footer-bottom .span6 {
+    float: right;
+}
+
+#footer .map_overlay {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+#footer .textwidget {
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+
+    .gform_wrapper.gf_browser_chrome .gform_body {
+        width: calc(100% + 0px) !important;
+    }
+
+    #footer-bottom .ellul_schranz_social_media_widget {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    #footer-bottom #text-5.widget_text {
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    #footer-bottom #text-3.widget_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer-bottom .span6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #footer .gform_body {
+        width: 100%;
+    }
+
+    #footer-bottom {
+        padding: 0px 0 15px;
+    }
+
+}
+
+/*-----End footer-----*/
+
+/*-----Media Queries-----*/
+
+@media screen and (min-width: 1620px) and (max-width: 1920px) {
+    #header .sf-menu > li > a, .sf-menu > li.dropdown > a {
+        padding: 42px 20px 37px;
+    }
+}
+
+@media screen and (min-width: 1480px) and (max-width: 1619px) {
+    #header .sf-menu > li > a, .sf-menu > li.dropdown > a {
+        padding: 42px 14px 37px;
+    }
+}
+
+@media screen and (max-width: 1271px) {
+    #header .sf-menu > li > a, .sf-menu > li.dropdown > a {
+        padding: 42px 4px 37px;
+    }
+
+}
+
+@media screen and (max-width: 1130px) {
+    .sf-menu > li > a, .sf-menu > li.dropdown > a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    li.home-niu-services-list {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1063px) {
+    .span9 {
+        padding-right: 0;
+    }
+}
+
+#mobile-menu {
+    margin: 0;
+}
+
+@media (max-width: 1241px) and (min-width: 768px) {
+    #content {
+        padding-top: 0;
+    }
+
+    #mobile-menu-trigger {
+        display: block;
+        margin-top: 37px;
+        margin-right: 0;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .vc_column-inner {
+        padding-top: 0 !important;
+    }
+
+    #logo {
+        left: 200px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .header-style-1 #header-wrap {
+        position: relative;
+        top: 40px;
+    }
+
+    .header-style-1 #header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 100px;
+        padding-left: 40px;
+        bottom: 0;
+    }
+
+    .header-style-1 #custom-search-button {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        width: 100px;
+    }
+
+    .header-style-1 #header-widget-area {
+        display: none;
+    }
+
+    #custom-search-form {
+        right: 55px;
+    }
+
+    .header-style-1 #header {
+        box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    #header #logo a img {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    #footer-bottom .ellul_schranz_social_media_widget {
+        margin-bottom: 0;
+    }
+
+    #footer-bottom {
+        padding: 20px 0 0;
+    }
+
+    #logo {
+        left: 170px;
+
+        text-align: center;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .header-style-1 #header-widget-area {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    /*empty*/
+}
+
+@media screen and (max-width: 790px) and (min-width: 768px) {
+    li.home-niu-services-list {
+        width: 100%;
+    }
+
+    li.home-services-titles {
+        height: 650px;
+    }
+
+    li.home-services-images {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*.header-style-1 #header*/
+    /*{*/
+    /*height: 67px;*/
+    /*}*/
+    li.home-services-images, li.home-services-height {
+        width: 100% !important;
+        height: 350px
+    }
+
+    .vc_column-inner {
+        padding-top: 0;
+    }
+
+    #footer-bottom {
+        padding: 0 0 15px;
+    }
+
+    .home-services-titles {
+        text-align: center;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .home-services-paragraph {
+        text-align: center;
+    }
+
+    .home-services-titles:before {
+        text-align: center;
+    }
+
+    li.home-niu-services-list {
+        text-align: left;
+        float: none;
+        margin-left: 0;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #content {
+        padding-top: 0;
+    }
+
+    .gf_browser_iphone .niu-services-list {
+        margin-bottom: 83px !important;
+    }
+
+    .niu-services-list {
+        margin-bottom: 30px;
+    }
+
+    .home-services-titles:before {
+        content: '';
+        width: 40px;
+        height: 5px;
+        background: #002362;
+        border-radius: 100px 100px 100px 100px;
+        display: block;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header #logo a img {
+        max-width: 59%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    #logo {
+        left: 130px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    li.home-services-images {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1550px) and (min-width: 1220px) {
+    .niu-services-list .home-services-images,
+    .niu-services-list .home-services-height {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1219px) and (min-width: 1100px) {
+    .niu-services-list .home-services-images,
+    .niu-services-list .home-services-height {
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 768px) {
+    .niu-services-list .home-services-images,
+    .niu-services-list .home-services-height {
+        height: 1250px;
+    }
+}
+
+
+/*-----End Media Queries-----*/
+
+/******************************************TEAM STYLING******************************************/
+
+.team-container .team-item {
+
+    background-color: #f5f5f5 !important;
+}
+
+.team-container .team-item img {
+    height: 175px !important;
+    width: auto !important;
+    border: transparent 40px solid;
+}
+
+.team-item .team-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.1;
+    font-family: inherit;
+}
+
+.team-item a .team-title {
+    padding-top: 0;
+    padding-left: 40px;
+}
+
+.team-item .team-position {
+    padding-left: 40px !important;
+    padding-top: 0 !important;
+    font-size: 40px;
+}
+
+.single-team_member .team-container {
+    text-align: left;
+}
+
+/*.single-team_member p.entry-content, .single-team_member .team-position, .single-team_member .post-header {*/
+    /*margin-left: 70px;*/
+    /*margin-right: 70px;*/
+/*}*/
+
+.single-team_member .team-position {
+    font-size: 20px;
+}
+
+.single-team_member .post-header {
+    font-size: 30px;
+}
+
+/*div.team-member-single*/
+/*{*/
+/*width: 75%;*/
+/*}*/
+/*div.team-sidebar*/
+/*{*/
+/*width: 25%;*/
+/*float: left;*/
+/*}*/
+
+ul.contactdetails_members {
+    list-style: none;
+    padding: 20px;
+    background: #f5f5f5 !important;
+    width: 100%;
+    margin-right: 30px;
+
+}
+
+ul.contactdetails_members li {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top:10px;
+    width: 100%;
+    text-align: center;
+
+}
+
+span.contactdetails-header {
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+span.mobile-label
+{
+    margin-right:10px;
+    width: 100%;
+}
+
+a.contactbutton-members
+{
+    width: 120px;
+    text-align: center;
+}
+
+
+.team-container .team-item
+{
+    width: 255px !important;
+}
+
+.team-items
+{
+    margin-bottom: 50px;
+}
+
+.team-container .home-services-titles
+{
+    margin-top: 50px;
+}
+
+.team_member .post-header
+{
+    margin-top: 50px;
+}
+
+@media (max-width: 991px ){
+
+    a.contactbutton-members
+    {
+        width: 60px;
+    }
+
+    .team-container .team-items
+    {
+        text-align: center !important;
+    }
+
+
+
+
+}
+
+@media (max-width: 767px)
+{
+    ul.contactdetails_members
+    {
+        width: 250px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-member-single div.team-position
+    {
+        text-align: center;
+    }
+}
+
+#footer a[href^="tel:"], #footer a[href^="mailto:"] {
+    color: #fff !important;
+}
+
+
+a[href^="tel:"], a[href^="mailto:"]
+{
+    color: #002363 !important;
+}
+
+.home-services-cats p {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: none;
+    padding-top: 15px;
+}
+
+.home-services-cats li
+{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: none;
+    font-style: italic;
+    background-color: transparent !important;
+    color: #6f6f6f;
+    width: 50%;
+    list-style: none;
+    position: relative;
+}
+
+li.home-services-titles{
+    background-color: transparent !important;
+    color: #000000 !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+div.home-services-titles-div{
+    background-color: transparent !important;
+    color: #000000 !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: normal !important;
+}
+
+.home-services-height
+{
+    height:860px;
+}
+
+.wpbwrapper:last-child .niu-services-list .home-services-titles,
+.wpbwrapper:last-child .niu-services-list .home-services-images {
+    height: 550px;
+}
+
+.enquire-button
+{
+    float: right;
+}
+
+li.home-services-height p
+{
+    font-style: normal;
+}
+
+a.btn-not-italic, li.home-services-titles
+{
+    font-style: normal;
+}
+
+#page-header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media  (max-width: 700px ){
+    .header-style-1 #page-header {
+        padding-top: 100px !important;
+    }
+}
+
+
+@media  (max-width: 600px ){
+    #header img{
+        max-width: 59%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text-right .btn.btn-default {
+        margin-right: 50%;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+    }
+}
+
+.search-results article{
+    margin-bottom: 0;
+}
+
+.search-result-btn{
+    display: none !important;
+}
+
+.search-results .search-result-btn{
+    display: inline-block !important;
+}
+
+/* Start - Owl Carousel Styling */
+
+.owl-carousel .owl-item div {
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+}
+
+.owl-carousel-name {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home .owl-carousel-name,
+.home .home-owl-carousel .owl-nav span {
+    color: #fff;
+}
+
+.owl-prev:focus, .owl-next:focus {
+    outline: none;
+}
+
+.owl-prev {
+    font-size: 50px !important;
+    width: 15px;
+    /*height: 100px;*/
+    position: absolute;
+    top: 30%;
+    margin-left: -20px;
+    display: block!IMPORTANT;
+    /*border:0 solid black;*/
+}
+
+.owl-next {
+    font-size: 50px !important;
+    width: 15px;
+    /*height: 100px;*/
+    position: absolute;
+    top: 30%;
+    right: -25px;
+    display: block!IMPORTANT;
+    /*border:0 solid black;*/
+}
+
+/* End - Owl Carousel Styling */
+
+/* GDPR AND COOKIE NOTICE PLUGIN STYLING */
+
+body #cookie-notice .button.bootstrap,
+body #cookie-notice .button.bootstrap:hover {
+    background-image: none !important;
+    background-color: #032462;
+}
+
+#footer .gform_wrapper .checkbox-privacy-policy .privacy-policy-link {
+    color: #fff !important;
+}
+
+#footer .footer-privacy-policy {
+    margin-top: 20px;
+}
+
+#footer .footer-privacy-policy .footer-privacy-policy-link {
+    color: #fff;
+}
+
+#footer .footer-privacy-policy .footer-privacy-policy-link:focus {
+    text-decoration: none;
+}
+
+#footer .widget_text .gform_wrapper .gfield input:not([type=checkbox]),
+#footer .widget_text .gform_wrapper .gfield textarea {
+    width: 100% !important;
+}
+
+.contact-form_wrapper .gform_body .gfield input:not([type=checkbox]),
+.contact-form_wrapper .gform_body .gfield textarea {
+    max-width: 100%;
+}
+
+/* GDPR AND COOKIE NOTICE PLUGIN STYLING */

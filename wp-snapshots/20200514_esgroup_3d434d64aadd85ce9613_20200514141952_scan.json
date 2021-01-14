@@ -1,0 +1,528 @@
+{
+    "RPT": {
+        "ScanTime": "0.06 sec.",
+        "ScanFile": "20200514_esgroup_3d434d64aadd85ce9613_20200514141952_scan.json",
+        "Warnings": 1,
+        "Success": 5
+    },
+    "SRV": {
+        "PHP": {
+            "websrv": true,
+            "openbase": true,
+            "maxtime": true,
+            "mysqli": true,
+            "version": true,
+            "ALL": "Good"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "Size": "0B",
+        "DirCount": "0",
+        "FileCount": "0",
+        "FullCount": "0",
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "\/home\/icowebsi\/public_html\/ellulschranz\/.opcache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/ai1wm-backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/backups-dup-pro",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/backupwordpress",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/cache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/cache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/content\/cache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/contents\/cache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/infinitewp\/backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/managewp\/backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/old-cache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/updraft",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/aiowps_backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/backupbuddy_backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/backupbuddy_temp",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/mainwp\/backup",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/pb_backupbuddy",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/snapshots",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/sucuri",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/wp-clone",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/wp_all_backup",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/wpbackitup_backups",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/wfcache",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/wishlist-backup",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-snapshots",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-snapshots\/tmp"
+        ],
+        "FilterFilesAll": [
+            "\/home\/icowebsi\/public_html\/ellulschranz\/icowebsi_elluls\/wp-content.zip",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content.zip",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/2017\/01\/investimentstrategy.psd",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/MYS-Homepage.mp4",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/advanced-cf7-upload\/1577035706979_1575452620853_1574954992887_Vukan-\u0110oki\u0107-CV.pdf",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/revslider-5.4.6.3.1-ffcs2N93ghB6f.zip",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/salient-10.0.1-w3yNGRfOEOOzfO4XA.zip",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/salient-11.0.4-WvBQUFfsFvnGcW.zip",
+            "error_log",
+            "error.log",
+            "debug_log",
+            "ws_ftp.log",
+            "dbcache",
+            "pgcache",
+            "objectcache",
+            ".DS_Store",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/.htaccess",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/web.config",
+            "\/home\/icowebsi\/public_html\/ellulschranz\/wp-config.php"
+        ],
+        "FilterExtsAll": [],
+        "FilterInfo": {
+            "Dirs": {
+                "Warning": [],
+                "Unreadable": [],
+                "Core": [
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-snapshots",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/.opcache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/backups-dup-pro",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/ai1wm-backups",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/backupwordpress",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/content\/cache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/contents\/cache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/infinitewp\/backups",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/managewp\/backups",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/old-cache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/updraft",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/wishlist-backup",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/wfcache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/cache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/aiowps_backups",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/backupbuddy_temp",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/backupbuddy_backups",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/ithemes-security\/backups",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/mainwp\/backup",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/pb_backupbuddy",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/snapshots",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/sucuri",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/wp-clone",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/wp_all_backup",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/wpbackitup_backups"
+                ],
+                "Global": [],
+                "Instance": [
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/cache",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-snapshots\/tmp"
+                ]
+            },
+            "Files": {
+                "Size": [],
+                "Warning": [],
+                "Unreadable": [],
+                "Core": [],
+                "Global": [
+                    "error_log",
+                    "error.log",
+                    "debug_log",
+                    "ws_ftp.log",
+                    "dbcache",
+                    "pgcache",
+                    "objectcache",
+                    ".DS_Store"
+                ],
+                "Instance": [
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/icowebsi_elluls\/wp-content.zip",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content.zip",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/2017\/01\/investimentstrategy.psd",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/MYS-Homepage.mp4",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/advanced-cf7-upload\/1577035706979_1575452620853_1574954992887_Vukan-\u0110oki\u0107-CV.pdf",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/revslider-5.4.6.3.1-ffcs2N93ghB6f.zip",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/salient-10.0.1-w3yNGRfOEOOzfO4XA.zip",
+                    "\/home\/icowebsi\/public_html\/ellulschranz\/wp-content\/uploads\/salient-11.0.4-WvBQUFfsFvnGcW.zip"
+                ]
+            },
+            "Exts": {
+                "Core": [],
+                "Global": [],
+                "Instance": []
+            },
+            "UDirCount": 0,
+            "UFileCount": 0,
+            "UExtCount": 0,
+            "TreeSize": [],
+            "TreeWarning": []
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateProcStatus": "Good",
+            "showCreateProc": true,
+            "AddonSites": "Good"
+        },
+        "Dirs": [],
+        "Files": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "DB_Case": "Good",
+            "DB_Rows": "Good",
+            "DB_Size": "Warn",
+            "TBL_Case": "Good",
+            "TBL_Rows": "Good",
+            "TBL_Size": "Warn"
+        },
+        "Size": "83.97MB",
+        "Rows": "132,721",
+        "TableCount": 55,
+        "TableList": {
+            "wpud_aiogpr_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_cf7_vdata": {
+                "Case": 0,
+                "Rows": "68",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_cf7_vdata_entry": {
+                "Case": 0,
+                "Rows": "1,103",
+                "Size": "176KB",
+                "USize": 180224
+            },
+            "wpud_commentmeta": {
+                "Case": 0,
+                "Rows": "629",
+                "Size": "224KB",
+                "USize": 229376
+            },
+            "wpud_comments": {
+                "Case": 0,
+                "Rows": "214",
+                "Size": "240KB",
+                "USize": 245760
+            },
+            "wpud_duplicator_packages": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wpud_gf_draft_submissions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wpud_gf_entry": {
+                "Case": 0,
+                "Rows": "3,441",
+                "Size": "1.7MB",
+                "USize": 1785856
+            },
+            "wpud_gf_entry_meta": {
+                "Case": 0,
+                "Rows": "23,026",
+                "Size": "13.09MB",
+                "USize": 13729792
+            },
+            "wpud_gf_entry_notes": {
+                "Case": 0,
+                "Rows": "17",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_gf_form": {
+                "Case": 0,
+                "Rows": "8",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_gf_form_meta": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "368KB",
+                "USize": 376832
+            },
+            "wpud_gf_form_revisions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_gf_form_view": {
+                "Case": 0,
+                "Rows": "854",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "wpud_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wpud_mo_openid_linked_user": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_ms_snippets": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_options": {
+                "Case": 0,
+                "Rows": "691",
+                "Size": "4.3MB",
+                "USize": 4505600
+            },
+            "wpud_postmeta": {
+                "Case": 0,
+                "Rows": "30,691",
+                "Size": "11.55MB",
+                "USize": 12107776
+            },
+            "wpud_posts": {
+                "Case": 0,
+                "Rows": "3,753",
+                "Size": "26.28MB",
+                "USize": 27557888
+            },
+            "wpud_redirection_404": {
+                "Case": 0,
+                "Rows": "3,172",
+                "Size": "2.31MB",
+                "USize": 2424832
+            },
+            "wpud_redirection_groups": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_redirection_items": {
+                "Case": 0,
+                "Rows": "116",
+                "Size": "144KB",
+                "USize": 147456
+            },
+            "wpud_redirection_logs": {
+                "Case": 0,
+                "Rows": "326",
+                "Size": "1.09MB",
+                "USize": 1146880
+            },
+            "wpud_revslider_css": {
+                "Case": 0,
+                "Rows": "110",
+                "Size": "128KB",
+                "USize": 131072
+            },
+            "wpud_revslider_css_bkp": {
+                "Case": 0,
+                "Rows": "110",
+                "Size": "128KB",
+                "USize": 131072
+            },
+            "wpud_revslider_layer_animations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_revslider_layer_animations_bkp": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_revslider_navigations": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_revslider_navigations_bkp": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_revslider_sliders": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wpud_revslider_sliders_bkp": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wpud_revslider_slides": {
+                "Case": 0,
+                "Rows": "6",
+                "Size": "320KB",
+                "USize": 327680
+            },
+            "wpud_revslider_slides_bkp": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "416KB",
+                "USize": 425984
+            },
+            "wpud_revslider_static_slides": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_revslider_static_slides_bkp": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_rg_form": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_rg_form_meta": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wpud_rg_form_view": {
+                "Case": 0,
+                "Rows": "854",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "wpud_rg_incomplete_submissions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wpud_rg_lead": {
+                "Case": 0,
+                "Rows": "3,427",
+                "Size": "1.69MB",
+                "USize": 1769472
+            },
+            "wpud_rg_lead_detail": {
+                "Case": 0,
+                "Rows": "21,845",
+                "Size": "11.27MB",
+                "USize": 11812864
+            },
+            "wpud_rg_lead_detail_long": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_rg_lead_meta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wpud_rg_lead_notes": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_snippets": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_term_relationships": {
+                "Case": 0,
+                "Rows": "14,543",
+                "Size": "2.02MB",
+                "USize": 2113536
+            },
+            "wpud_term_taxonomy": {
+                "Case": 0,
+                "Rows": "8,958",
+                "Size": "2.22MB",
+                "USize": 2326528
+            },
+            "wpud_termmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wpud_terms": {
+                "Case": 0,
+                "Rows": "8,840",
+                "Size": "2.39MB",
+                "USize": 2506752
+            },
+            "wpud_usermeta": {
+                "Case": 0,
+                "Rows": "411",
+                "Size": "160KB",
+                "USize": 163840
+            },
+            "wpud_users": {
+                "Case": 0,
+                "Rows": "14",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wpud_wpfm_backup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "wpud_yoast_seo_links": {
+                "Case": 0,
+                "Rows": "2,832",
+                "Size": "512KB",
+                "USize": 524288
+            },
+            "wpud_yoast_seo_meta": {
+                "Case": 0,
+                "Rows": "2,622",
+                "Size": "128KB",
+                "USize": 131072
+            }
+        },
+        "RawSize": 88047616
+    },
+    "LL": {
+        "TotalSize": "83.97MB",
+        "Status": {
+            "TotalSize": "Good"
+        }
+    }
+}
